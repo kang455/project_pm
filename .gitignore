@@ -1,0 +1,80 @@
+# Unity 자동 생성 폴더
+.utmp/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Unity 에디터 플러그인 자동 생성 파일
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# IDE 및 빌드 캐시
+.vs/
+.gradle/
+ExportedObj/
+.consulo/
+
+# 자동 생성 프로젝트 파일
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# 자동 생성 파일의 meta
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# 로그 및 오류 보고서
+*.log
+sysinfo.txt
+crashlytics-build.properties
+
+# 빌드 및 패키지 결과
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# Addressables 자동 생성 데이터
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Python 가상환경
+**/.venv/
+**/venv/
+
+# Python 캐시
+**/__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# 행동 학습 중간 가중치
+/.vscode/ActionLearning/*.pt
+/.vscode/ActionLearning/reinforced/*.pt
+
+# 시연 기록
+SafetyDemonstrations/
+
+# 로컬 비밀 설정
+.env
+.env.*
+!.env.example
