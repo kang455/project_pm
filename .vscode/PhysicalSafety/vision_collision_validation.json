@@ -1,0 +1,12 @@
+{
+ "risk_inputs": "accepted YOLO person and forklift boxes, frame IDs and image dimensions",
+ "world_actor_positions_used_for_warning": false,
+ "synthetic_near_pair": true,
+ "synthetic_far_pair": false,
+ "synthetic_cabin_driver": false,
+ "synthetic_person_without_forklift": false,
+ "training_forklift_deleted": true,
+ "remaining_vehicles": ["Forklift", "Reachlift"],
+ "recording_schema": 2,
+ "limitation": "2D proximity/relative approach warning; not proven 3D collision prediction"
+}

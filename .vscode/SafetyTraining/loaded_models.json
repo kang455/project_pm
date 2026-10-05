@@ -1,0 +1,153 @@
+{
+  "models": [
+    {
+      "model_id": "forklift",
+      "path": "D:\\새 폴더\\unity project\\project_pm\\Tools\\YoloBridge\\forklift_warehouse.pt",
+      "task": "detect",
+      "model_type": "DetectionModel",
+      "names": {
+        "0": "container",
+        "1": "crane",
+        "2": "forklift",
+        "3": "person",
+        "4": "ship",
+        "5": "stacker",
+        "6": "truck"
+      },
+      "architecture": "yolo26n.yaml",
+      "enabled": true,
+      "confidence": 0.25,
+      "diagnostic_only": false,
+      "accepted_class_names": [
+        "forklift",
+        "person"
+      ],
+      "person_crops": false,
+      "require_person_head": false,
+      "verify_flame_motion": false,
+      "inference_size": 640,
+      "multi_scale_fire": false,
+      "class_min_confidence": {
+        "2": 0.25,
+        "3": 0.25
+      }
+    },
+    {
+      "model_id": "helmet",
+      "path": "D:\\새 폴더\\unity project\\project_pm\\Tools\\YoloBridge\\helmet_warehouse.pt",
+      "task": "detect",
+      "model_type": "DetectionModel",
+      "names": {
+        "0": "object",
+        "1": "safety_helmet_detection_0321 - v3 2024-03-27 8-32pm"
+      },
+      "architecture": "yolo26n.yaml",
+      "enabled": true,
+      "confidence": 0.25,
+      "diagnostic_only": false,
+      "accepted_class_names": [
+        "safety_helmet_detection_0321 - v3 2024-03-27 8-32pm"
+      ],
+      "person_crops": false,
+      "require_person_head": true,
+      "verify_flame_motion": false,
+      "inference_size": 640,
+      "multi_scale_fire": false,
+      "class_min_confidence": {}
+    },
+    {
+      "model_id": "fire",
+      "path": "D:\\새 폴더\\unity project\\project_pm\\Tools\\YoloBridge\\fire_warehouse.pt",
+      "task": "detect",
+      "model_type": "DetectionModel",
+      "names": {
+        "0": "fire",
+        "1": "smoke"
+      },
+      "architecture": "yolo26n.yaml",
+      "enabled": true,
+      "confidence": 0.25,
+      "diagnostic_only": false,
+      "accepted_class_names": [
+        "fire"
+      ],
+      "person_crops": false,
+      "require_person_head": false,
+      "verify_flame_motion": false,
+      "inference_size": 640,
+      "multi_scale_fire": false,
+      "class_min_confidence": {
+        "0": 0.25
+      }
+    },
+    {
+      "model_id": "person",
+      "path": "D:\\새 폴더\\unity project\\project_pm\\Tools\\YoloBridge\\person.pt",
+      "task": "detect",
+      "model_type": "DetectionModel",
+      "names": {
+        "0": "0",
+        "1": "1",
+        "2": "2"
+      },
+      "architecture": "yolo26m.yaml",
+      "enabled": true,
+      "confidence": 0.25,
+      "diagnostic_only": true,
+      "accepted_class_names": null,
+      "person_crops": false,
+      "require_person_head": false,
+      "verify_flame_motion": false,
+      "inference_size": 640,
+      "multi_scale_fire": false,
+      "class_min_confidence": {}
+    },
+    {
+      "model_id": "fire2",
+      "path": "D:\\새 폴더\\unity project\\project_pm\\Tools\\YoloBridge\\fire (2).pt",
+      "task": "detect",
+      "model_type": "DetectionModel",
+      "names": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "Liquid",
+        "6": "Metal",
+        "7": "Solid"
+      },
+      "architecture": "yolo26m.yaml",
+      "enabled": true,
+      "confidence": 0.25,
+      "diagnostic_only": true,
+      "accepted_class_names": null,
+      "person_crops": false,
+      "require_person_head": false,
+      "verify_flame_motion": false,
+      "inference_size": 640,
+      "multi_scale_fire": false,
+      "class_min_confidence": {}
+    },
+    {
+      "model_id": "nohelmet",
+      "path": "D:\\새 폴더\\unity project\\project_pm\\Tools\\YoloBridge\\nohelmet_warehouse.pt",
+      "task": "detect",
+      "model_type": "DetectionModel",
+      "names": {
+        "0": "nohelmet"
+      },
+      "architecture": "yolo26n.yaml",
+      "enabled": true,
+      "confidence": 0.25,
+      "diagnostic_only": false,
+      "accepted_class_names": null,
+      "person_crops": false,
+      "require_person_head": false,
+      "verify_flame_motion": false,
+      "inference_size": 640,
+      "multi_scale_fire": false,
+      "class_min_confidence": {}
+    }
+  ]
+}

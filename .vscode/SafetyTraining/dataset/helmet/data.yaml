@@ -1,0 +1,7 @@
+path: 'D:/새 폴더/unity project/project_pm/Assets/../.vscode/SafetyTraining/dataset/helmet'
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: object
+  1: safety_helmet_detection_0321 - v3 2024-03-27 8-32pm

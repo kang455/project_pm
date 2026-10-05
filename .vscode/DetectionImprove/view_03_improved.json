@@ -1,0 +1,130 @@
+{
+  "frame_id": 2,
+  "width": 640,
+  "height": 360,
+  "processing_ms": 1037.9350000002887,
+  "inference_ms": 1001.284800004214,
+  "coordinate_origin": "top_left",
+  "detections": [
+    {
+      "model_id": "forklift",
+      "task": "detect",
+      "class_id": 2,
+      "class_name": "forklift",
+      "confidence": 0.6448096036911011,
+      "xyxy": [
+        468.4310302734375,
+        146.8240509033203,
+        508.1375732421875,
+        210.52708435058594
+      ],
+      "keypoints": []
+    }
+  ],
+  "raw_detections": [
+    {
+      "model_id": "forklift",
+      "task": "detect",
+      "class_id": 2,
+      "class_name": "forklift",
+      "confidence": 0.6448096036911011,
+      "xyxy": [
+        468.4310302734375,
+        146.8240509033203,
+        508.1375732421875,
+        210.52708435058594
+      ],
+      "keypoints": []
+    },
+    {
+      "model_id": "fire2",
+      "task": "detect",
+      "class_id": 2,
+      "class_name": "2",
+      "confidence": 0.38451167941093445,
+      "xyxy": [
+        203.4749755859375,
+        126.31466674804688,
+        223.97222900390625,
+        186.43643188476562
+      ],
+      "keypoints": [],
+      "rejection_reason": "unverified_class_semantics"
+    },
+    {
+      "model_id": "fire2",
+      "task": "detect",
+      "class_id": 3,
+      "class_name": "3",
+      "confidence": 0.36673998832702637,
+      "xyxy": [
+        178.8748779296875,
+        0.0,
+        640.0,
+        228.1110382080078
+      ],
+      "keypoints": [],
+      "rejection_reason": "unverified_class_semantics"
+    },
+    {
+      "model_id": "fire2",
+      "task": "detect",
+      "class_id": 2,
+      "class_name": "2",
+      "confidence": 0.3446034789085388,
+      "xyxy": [
+        287.7999572753906,
+        143.98095703125,
+        304.1368713378906,
+        185.88568115234375
+      ],
+      "keypoints": [],
+      "rejection_reason": "unverified_class_semantics"
+    }
+  ],
+  "classifications": [],
+  "model_results": [
+    {
+      "model_id": "forklift",
+      "task": "detect",
+      "processing_ms": 166.96329999831505,
+      "inference_ms": 165.1197999890428,
+      "count": 1
+    },
+    {
+      "model_id": "helmet",
+      "task": "detect",
+      "processing_ms": 166.9022000132827,
+      "inference_ms": 163.67510000418406,
+      "count": 0
+    },
+    {
+      "model_id": "fire",
+      "task": "detect",
+      "processing_ms": 168.80840000521857,
+      "inference_ms": 165.75539999757893,
+      "count": 0
+    },
+    {
+      "model_id": "person",
+      "task": "detect",
+      "processing_ms": 172.01210001076106,
+      "inference_ms": 168.82980000809766,
+      "count": 0
+    },
+    {
+      "model_id": "fire2",
+      "task": "detect",
+      "processing_ms": 167.63959999661893,
+      "inference_ms": 163.88680000090972,
+      "count": 0
+    },
+    {
+      "model_id": "nohelmet",
+      "task": "detect",
+      "processing_ms": 176.90240000956692,
+      "inference_ms": 174.01790000440087,
+      "count": 0
+    }
+  ]
+}

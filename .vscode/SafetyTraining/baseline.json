@@ -1,0 +1,96 @@
+{
+  "helmet": {
+    "original_names": {
+      "0": "object",
+      "1": "safety_helmet_detection_0321 - v3 2024-03-27 8-32pm"
+    },
+    "original_architecture": "yolo26m.yaml",
+    "class_id": 1,
+    "baseline": {
+      "val": {
+        "tp": 4,
+        "fp": 1,
+        "fn": 8,
+        "precision": 0.8,
+        "recall": 0.3333333333333333,
+        "positive_images": 12,
+        "negative_images": 30,
+        "negative_false_positive_images": 1
+      },
+      "test": {
+        "tp": 5,
+        "fp": 0,
+        "fn": 27,
+        "precision": 1.0,
+        "recall": 0.15625,
+        "positive_images": 25,
+        "negative_images": 15,
+        "negative_false_positive_images": 0
+      }
+    }
+  },
+  "nohelmet": {
+    "original_names": {
+      "0": "nohelmet"
+    },
+    "original_architecture": "yolo26m.yaml",
+    "class_id": 0,
+    "baseline": {
+      "val": {
+        "tp": 9,
+        "fp": 5,
+        "fn": 16,
+        "precision": 0.6428571428571429,
+        "recall": 0.36,
+        "positive_images": 21,
+        "negative_images": 21,
+        "negative_false_positive_images": 4
+      },
+      "test": {
+        "tp": 2,
+        "fp": 3,
+        "fn": 16,
+        "precision": 0.4,
+        "recall": 0.1111111111111111,
+        "positive_images": 18,
+        "negative_images": 22,
+        "negative_false_positive_images": 2
+      }
+    }
+  },
+  "forklift": {
+    "original_names": {
+      "0": "container",
+      "1": "crane",
+      "2": "forklift",
+      "3": "person",
+      "4": "ship",
+      "5": "stacker",
+      "6": "truck"
+    },
+    "original_architecture": "yolo26m.yaml",
+    "class_id": 2,
+    "baseline": {
+      "val": {
+        "tp": 0,
+        "fp": 6,
+        "fn": 8,
+        "precision": 0.0,
+        "recall": 0.0,
+        "positive_images": 8,
+        "negative_images": 34,
+        "negative_false_positive_images": 0
+      },
+      "test": {
+        "tp": 0,
+        "fp": 11,
+        "fn": 8,
+        "precision": 0.0,
+        "recall": 0.0,
+        "positive_images": 8,
+        "negative_images": 32,
+        "negative_false_positive_images": 9
+      }
+    }
+  }
+}

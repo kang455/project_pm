@@ -1,0 +1,172 @@
+{
+  "frame_id": 100003,
+  "width": 960,
+  "height": 540,
+  "processing_ms": 506.18199999735225,
+  "inference_ms": 461.0697999742115,
+  "coordinate_origin": "top_left",
+  "detections": [
+    {
+      "model_id": "forklift",
+      "task": "detect",
+      "class_id": 2,
+      "class_name": "forklift",
+      "confidence": 0.7996788024902344,
+      "xyxy": [
+        328.3465881347656,
+        179.27940368652344,
+        434.9788513183594,
+        301.29296875
+      ],
+      "keypoints": []
+    },
+    {
+      "model_id": "fire",
+      "task": "detect",
+      "class_id": 0,
+      "class_name": "fire",
+      "confidence": 0.8466486930847168,
+      "xyxy": [
+        455.29669189453125,
+        221.1943359375,
+        500.4539794921875,
+        311.445556640625
+      ],
+      "keypoints": []
+    }
+  ],
+  "raw_detections": [
+    {
+      "model_id": "forklift",
+      "task": "detect",
+      "class_id": 2,
+      "class_name": "forklift",
+      "confidence": 0.7996788024902344,
+      "xyxy": [
+        328.3465881347656,
+        179.27940368652344,
+        434.9788513183594,
+        301.29296875
+      ],
+      "keypoints": []
+    },
+    {
+      "model_id": "forklift",
+      "task": "detect",
+      "class_id": 3,
+      "class_name": "person",
+      "confidence": 0.5891227722167969,
+      "xyxy": [
+        254.49847412109375,
+        227.8969268798828,
+        274.60162353515625,
+        250.6767120361328
+      ],
+      "keypoints": []
+    },
+    {
+      "model_id": "helmet",
+      "task": "detect",
+      "class_id": 1,
+      "class_name": "safety_helmet_detection_0321 - v3 2024-03-27 8-32pm",
+      "confidence": 0.5461339950561523,
+      "xyxy": [
+        460.05487060546875,
+        265.5744323730469,
+        493.14825439453125,
+        305.7434997558594
+      ],
+      "keypoints": [],
+      "rejection_reason": "no_matching_person_head"
+    },
+    {
+      "model_id": "fire",
+      "task": "detect",
+      "class_id": 0,
+      "class_name": "fire",
+      "confidence": 0.8466486930847168,
+      "xyxy": [
+        455.29669189453125,
+        221.1943359375,
+        500.4539794921875,
+        311.445556640625
+      ],
+      "keypoints": []
+    },
+    {
+      "model_id": "fire2",
+      "task": "detect",
+      "class_id": 2,
+      "class_name": "2",
+      "confidence": 0.479685515165329,
+      "xyxy": [
+        175.7944793701172,
+        177.5375518798828,
+        208.33209228515625,
+        243.1670379638672
+      ],
+      "keypoints": [],
+      "rejection_reason": "unverified_class_semantics"
+    },
+    {
+      "model_id": "fire2",
+      "task": "detect",
+      "class_id": 2,
+      "class_name": "2",
+      "confidence": 0.38686320185661316,
+      "xyxy": [
+        455.7561950683594,
+        246.3500518798828,
+        496.05816650390625,
+        307.8260192871094
+      ],
+      "keypoints": [],
+      "rejection_reason": "unverified_class_semantics"
+    }
+  ],
+  "classifications": [],
+  "model_results": [
+    {
+      "model_id": "forklift",
+      "task": "detect",
+      "processing_ms": 39.23840000061318,
+      "inference_ms": 33.87499999371357,
+      "count": 2
+    },
+    {
+      "model_id": "helmet",
+      "task": "detect",
+      "processing_ms": 32.47739998914767,
+      "inference_ms": 29.010300000663847,
+      "count": 0
+    },
+    {
+      "model_id": "fire",
+      "task": "detect",
+      "processing_ms": 31.848200000240467,
+      "inference_ms": 28.37849999195896,
+      "count": 1
+    },
+    {
+      "model_id": "person",
+      "task": "detect",
+      "processing_ms": 177.660500005004,
+      "inference_ms": 174.35839999234304,
+      "count": 0
+    },
+    {
+      "model_id": "fire2",
+      "task": "detect",
+      "processing_ms": 171.51889999513514,
+      "inference_ms": 167.94990000198595,
+      "count": 0
+    },
+    {
+      "model_id": "nohelmet",
+      "task": "detect",
+      "processing_ms": 30.627400003140792,
+      "inference_ms": 27.49769999354612,
+      "count": 0
+    }
+  ]
+}

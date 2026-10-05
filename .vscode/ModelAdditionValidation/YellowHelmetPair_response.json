@@ -1,0 +1,242 @@
+﻿{
+    "frame_id":  500000,
+    "width":  640,
+    "height":  360,
+    "processing_ms":  4720.007700001588,
+    "inference_ms":  1408.5458000190556,
+    "coordinate_origin":  "top_left",
+    "detections":  [
+                       {
+                           "model_id":  "forklift",
+                           "task":  "detect",
+                           "class_id":  3,
+                           "class_name":  "person",
+                           "confidence":  0.7766157984733582,
+                           "xyxy":  [
+                                        383.872802734375,
+                                        134.62063598632812,
+                                        433.79644775390625,
+                                        348.4897766113281
+                                    ],
+                           "keypoints":  [
+
+                                         ]
+                       },
+                       {
+                           "model_id":  "forklift",
+                           "task":  "detect",
+                           "class_id":  3,
+                           "class_name":  "person",
+                           "confidence":  0.7718614339828491,
+                           "xyxy":  [
+                                        185.94876098632812,
+                                        134.17950439453125,
+                                        235.64230346679688,
+                                        275.4792175292969
+                                    ],
+                           "keypoints":  [
+
+                                         ]
+                       },
+                       {
+                           "model_id":  "forklift",
+                           "task":  "detect",
+                           "class_id":  3,
+                           "class_name":  "person",
+                           "confidence":  0.2854422628879547,
+                           "xyxy":  [
+                                        0.0,
+                                        149.16827392578125,
+                                        14.683633804321289,
+                                        241.8719482421875
+                                    ],
+                           "keypoints":  [
+
+                                         ]
+                       },
+                       {
+                           "model_id":  "person",
+                           "task":  "detect",
+                           "class_id":  1,
+                           "class_name":  "1",
+                           "confidence":  0.6172946691513062,
+                           "xyxy":  [
+                                        165.29861450195312,
+                                        135.12139892578125,
+                                        243.51248168945312,
+                                        279.27020263671875
+                                    ],
+                           "keypoints":  [
+
+                                         ]
+                       },
+                       {
+                           "model_id":  "fire2",
+                           "task":  "detect",
+                           "class_id":  2,
+                           "class_name":  "2",
+                           "confidence":  0.3670598864555359,
+                           "xyxy":  [
+                                        81.41548156738281,
+                                        124.95062255859375,
+                                        97.69334411621094,
+                                        168.4708251953125
+                                    ],
+                           "keypoints":  [
+
+                                         ]
+                       }
+                   ],
+    "raw_detections":  [
+                           {
+                               "model_id":  "forklift",
+                               "task":  "detect",
+                               "class_id":  3,
+                               "class_name":  "person",
+                               "confidence":  0.7766157984733582,
+                               "xyxy":  [
+                                            383.872802734375,
+                                            134.62063598632812,
+                                            433.79644775390625,
+                                            348.4897766113281
+                                        ],
+                               "keypoints":  [
+
+                                             ]
+                           },
+                           {
+                               "model_id":  "forklift",
+                               "task":  "detect",
+                               "class_id":  3,
+                               "class_name":  "person",
+                               "confidence":  0.7718614339828491,
+                               "xyxy":  [
+                                            185.94876098632812,
+                                            134.17950439453125,
+                                            235.64230346679688,
+                                            275.4792175292969
+                                        ],
+                               "keypoints":  [
+
+                                             ]
+                           },
+                           {
+                               "model_id":  "forklift",
+                               "task":  "detect",
+                               "class_id":  3,
+                               "class_name":  "person",
+                               "confidence":  0.2854422628879547,
+                               "xyxy":  [
+                                            0.0,
+                                            149.16827392578125,
+                                            14.683633804321289,
+                                            241.8719482421875
+                                        ],
+                               "keypoints":  [
+
+                                             ]
+                           },
+                           {
+                               "model_id":  "fire",
+                               "task":  "detect",
+                               "class_id":  0,
+                               "class_name":  "fire",
+                               "confidence":  0.27248653769493103,
+                               "xyxy":  [
+                                            84.19337463378906,
+                                            126.39117431640625,
+                                            96.68702697753906,
+                                            165.60379028320312
+                                        ],
+                               "keypoints":  [
+
+                                             ]
+                           },
+                           {
+                               "model_id":  "person",
+                               "task":  "detect",
+                               "class_id":  1,
+                               "class_name":  "1",
+                               "confidence":  0.6172946691513062,
+                               "xyxy":  [
+                                            165.29861450195312,
+                                            135.12139892578125,
+                                            243.51248168945312,
+                                            279.27020263671875
+                                        ],
+                               "keypoints":  [
+
+                                             ]
+                           },
+                           {
+                               "model_id":  "fire2",
+                               "task":  "detect",
+                               "class_id":  2,
+                               "class_name":  "2",
+                               "confidence":  0.3670598864555359,
+                               "xyxy":  [
+                                            81.41548156738281,
+                                            124.95062255859375,
+                                            97.69334411621094,
+                                            168.4708251953125
+                                        ],
+                               "keypoints":  [
+
+                                             ]
+                           }
+                       ],
+    "classifications":  [
+
+                        ],
+    "model_results":  [
+                          {
+                              "model_id":  "forklift",
+                              "task":  "detect",
+                              "processing_ms":  2859.9396999925375,
+                              "inference_ms":  311.0183999961009,
+                              "count":  3
+                          },
+                          {
+                              "model_id":  "helmet",
+                              "task":  "detect",
+                              "processing_ms":  260.99389999581035,
+                              "inference_ms":  167.65000000305008,
+                              "count":  0
+                          },
+                          {
+                              "model_id":  "fire",
+                              "task":  "detect",
+                              "processing_ms":  267.57050000014715,
+                              "inference_ms":  165.78280000248924,
+                              "count":  0
+                          },
+                          {
+                              "model_id":  "person",
+                              "task":  "detect",
+                              "processing_ms":  371.8611000076635,
+                              "inference_ms":  187.1823000110453,
+                              "count":  1
+                          },
+                          {
+                              "model_id":  "lying_person",
+                              "task":  "detect",
+                              "processing_ms":  290.3418999921996,
+                              "inference_ms":  181.97380000492558,
+                              "count":  0
+                          },
+                          {
+                              "model_id":  "fire2",
+                              "task":  "detect",
+                              "processing_ms":  302.41979999118485,
+                              "inference_ms":  184.4647999969311,
+                              "count":  1
+                          },
+                          {
+                              "model_id":  "nohelmet",
+                              "task":  "detect",
+                              "processing_ms":  316.70860000303946,
+                              "inference_ms":  210.47370000451338,
+                              "count":  0
+                          }
+                      ]
+}

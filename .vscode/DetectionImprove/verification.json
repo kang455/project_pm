@@ -1,0 +1,454 @@
+[
+  {
+    "image": "FireAudit\\view_00.jpg",
+    "accepted": [
+      [
+        "forklift",
+        "container",
+        "full"
+      ],
+      [
+        "forklift",
+        "person",
+        "full"
+      ]
+    ],
+    "reject": [
+      [
+        "fire",
+        "fire",
+        "static_warm_object"
+      ]
+    ]
+  },
+  {
+    "image": "FireAudit\\view_01.jpg",
+    "accepted": [],
+    "reject": [
+      [
+        "fire2",
+        "2",
+        "unverified_class_semantics"
+      ],
+      [
+        "fire2",
+        "2",
+        "unverified_class_semantics"
+      ]
+    ]
+  },
+  {
+    "image": "FireAudit\\view_02.jpg",
+    "accepted": [],
+    "reject": [
+      [
+        "nohelmet",
+        "nohelmet",
+        "no_matching_person_head"
+      ]
+    ]
+  },
+  {
+    "image": "FireAudit\\view_03.jpg",
+    "accepted": [
+      [
+        "forklift",
+        "forklift",
+        "full"
+      ]
+    ],
+    "reject": [
+      [
+        "fire2",
+        "2",
+        "unverified_class_semantics"
+      ],
+      [
+        "fire2",
+        "3",
+        "unverified_class_semantics"
+      ],
+      [
+        "fire2",
+        "2",
+        "unverified_class_semantics"
+      ]
+    ]
+  },
+  {
+    "image": "FireAudit\\view_04.jpg",
+    "accepted": [
+      [
+        "forklift",
+        "forklift",
+        "full"
+      ]
+    ],
+    "reject": [
+      [
+        "fire2",
+        "2",
+        "unverified_class_semantics"
+      ],
+      [
+        "fire2",
+        "2",
+        "unverified_class_semantics"
+      ]
+    ]
+  },
+  {
+    "image": "FireAudit\\view_05.jpg",
+    "accepted": [
+      [
+        "forklift",
+        "forklift",
+        "full"
+      ]
+    ],
+    "reject": [
+      [
+        "fire2",
+        "2",
+        "unverified_class_semantics"
+      ],
+      [
+        "fire2",
+        "2",
+        "unverified_class_semantics"
+      ]
+    ]
+  },
+  {
+    "image": "FireAudit\\view_06.jpg",
+    "accepted": [
+      [
+        "forklift",
+        "forklift",
+        "full"
+      ]
+    ],
+    "reject": []
+  },
+  {
+    "image": "FireAudit\\view_07.jpg",
+    "accepted": [
+      [
+        "forklift",
+        "forklift",
+        "full"
+      ],
+      [
+        "forklift",
+        "forklift",
+        "full"
+      ]
+    ],
+    "reject": []
+  },
+  {
+    "image": "FireAudit\\view_08.jpg",
+    "accepted": [
+      [
+        "forklift",
+        "forklift",
+        "full"
+      ]
+    ],
+    "reject": []
+  },
+  {
+    "image": "FireAudit\\view_09.jpg",
+    "accepted": [],
+    "reject": [
+      [
+        "fire",
+        "fire",
+        "not_flame_shape"
+      ]
+    ]
+  },
+  {
+    "image": "FireAudit\\view_10.jpg",
+    "accepted": [
+      [
+        "forklift",
+        "person",
+        "full"
+      ]
+    ],
+    "reject": []
+  },
+  {
+    "image": "FireAudit\\view_11.jpg",
+    "accepted": [
+      [
+        "forklift",
+        "person",
+        "full"
+      ]
+    ],
+    "reject": [
+      [
+        "fire",
+        "fire",
+        "static_warm_object"
+      ],
+      [
+        "fire",
+        "fire",
+        "not_flame_shape"
+      ],
+      [
+        "fire",
+        "fire",
+        "below_acceptance_threshold"
+      ],
+      [
+        "fire2",
+        "2",
+        "unverified_class_semantics"
+      ]
+    ]
+  },
+  {
+    "image": "SceneSafetyValidation\\Comparison_0.jpg",
+    "accepted": [
+      [
+        "forklift",
+        "person",
+        "full"
+      ]
+    ],
+    "reject": [
+      [
+        "person",
+        "1",
+        "unverified_class_semantics"
+      ],
+      [
+        "fire2",
+        "2",
+        "unverified_class_semantics"
+      ],
+      [
+        "fire2",
+        "2",
+        "unverified_class_semantics"
+      ]
+    ]
+  },
+  {
+    "image": "SceneSafetyValidation\\Comparison_1.jpg",
+    "accepted": [
+      [
+        "forklift",
+        "person",
+        "full"
+      ]
+    ],
+    "reject": [
+      [
+        "fire",
+        "fire",
+        "static_warm_object"
+      ],
+      [
+        "person",
+        "1",
+        "unverified_class_semantics"
+      ],
+      [
+        "fire2",
+        "2",
+        "unverified_class_semantics"
+      ],
+      [
+        "fire2",
+        "2",
+        "unverified_class_semantics"
+      ]
+    ]
+  },
+  {
+    "image": "SceneSafetyValidation\\Comparison_2.jpg",
+    "accepted": [
+      [
+        "forklift",
+        "person",
+        "full"
+      ]
+    ],
+    "reject": [
+      [
+        "person",
+        "1",
+        "unverified_class_semantics"
+      ],
+      [
+        "fire2",
+        "2",
+        "unverified_class_semantics"
+      ],
+      [
+        "fire2",
+        "2",
+        "unverified_class_semantics"
+      ]
+    ]
+  },
+  {
+    "image": "SceneSafetyValidation\\Comparison_3.jpg",
+    "accepted": [
+      [
+        "forklift",
+        "person",
+        "full"
+      ]
+    ],
+    "reject": [
+      [
+        "fire",
+        "fire",
+        "static_warm_object"
+      ],
+      [
+        "person",
+        "1",
+        "unverified_class_semantics"
+      ],
+      [
+        "fire2",
+        "2",
+        "unverified_class_semantics"
+      ],
+      [
+        "fire2",
+        "2",
+        "unverified_class_semantics"
+      ]
+    ]
+  },
+  {
+    "image": "ModelAdditionValidation\\YellowHelmetPair.jpg",
+    "accepted": [
+      [
+        "forklift",
+        "person",
+        "full"
+      ],
+      [
+        "forklift",
+        "person",
+        "full"
+      ],
+      [
+        "forklift",
+        "person",
+        "full"
+      ]
+    ],
+    "reject": [
+      [
+        "fire",
+        "fire",
+        "below_acceptance_threshold"
+      ],
+      [
+        "person",
+        "1",
+        "unverified_class_semantics"
+      ],
+      [
+        "fire2",
+        "2",
+        "unverified_class_semantics"
+      ]
+    ]
+  },
+  {
+    "image": "ModelAdditionValidation\\BareheadFrontal.jpg",
+    "accepted": [
+      [
+        "forklift",
+        "person",
+        "full"
+      ],
+      [
+        "forklift",
+        "forklift",
+        "full"
+      ],
+      [
+        "nohelmet",
+        "nohelmet",
+        "full"
+      ]
+    ],
+    "reject": [
+      [
+        "fire",
+        "fire",
+        "below_acceptance_threshold"
+      ],
+      [
+        "person",
+        "2",
+        "unverified_class_semantics"
+      ],
+      [
+        "person",
+        "1",
+        "unverified_class_semantics"
+      ],
+      [
+        "fire2",
+        "2",
+        "unverified_class_semantics"
+      ]
+    ]
+  },
+  {
+    "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\DetectionImprove\\user_game_0.jpg",
+    "accepted": [
+      [
+        "forklift",
+        "person",
+        "full"
+      ],
+      [
+        "forklift",
+        "person",
+        "full"
+      ],
+      [
+        "nohelmet",
+        "nohelmet",
+        "full"
+      ]
+    ],
+    "reject": [
+      [
+        "fire",
+        "fire",
+        "static_warm_object"
+      ],
+      [
+        "person",
+        "1",
+        "unverified_class_semantics"
+      ]
+    ]
+  },
+  {
+    "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\DetectionImprove\\user_game_1.jpg",
+    "accepted": [
+      [
+        "forklift",
+        "forklift",
+        "full"
+      ]
+    ],
+    "reject": []
+  }
+]

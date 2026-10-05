@@ -1,0 +1,12 @@
+path: 'D:/새 폴더/unity project/project_pm/Assets/../.vscode/SafetyTraining/final_holdout/forklift'
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: container
+  1: crane
+  2: forklift
+  3: person
+  4: ship
+  5: stacker
+  6: truck

@@ -1,0 +1,41 @@
+﻿{
+    "frame_id":  200000,
+    "width":  640,
+    "height":  360,
+    "processing_ms":  1816.653199999564,
+    "inference_ms":  186.09809999907156,
+    "coordinate_origin":  "top_left",
+    "detections":  [
+
+                   ],
+    "raw_detections":  [
+                           {
+                               "model_id":  "fire",
+                               "task":  "detect",
+                               "class_id":  0,
+                               "class_name":  "fire",
+                               "confidence":  0.6713225245475769,
+                               "xyxy":  [
+                                            450.7208251953125,
+                                            231.05062866210938,
+                                            559.9351806640625,
+                                            298.5578918457031
+                                        ],
+                               "keypoints":  [
+
+                                             ]
+                           }
+                       ],
+    "classifications":  [
+
+                        ],
+    "model_results":  [
+                          {
+                              "model_id":  "fire",
+                              "task":  "detect",
+                              "processing_ms":  1799.2890999994415,
+                              "inference_ms":  186.09809999907156,
+                              "count":  0
+                          }
+                      ]
+}

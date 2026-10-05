@@ -1,0 +1,23 @@
+﻿{
+    "frame_id":  200000,
+    "width":  640,
+    "height":  360,
+    "processing_ms":  189.7290000015346,
+    "inference_ms":  181.2142999988282,
+    "coordinate_origin":  "top_left",
+    "detections":  [
+
+                   ],
+    "classifications":  [
+
+                        ],
+    "model_results":  [
+                          {
+                              "model_id":  "fire",
+                              "task":  "detect",
+                              "processing_ms":  188.26780000017607,
+                              "inference_ms":  181.2142999988282,
+                              "count":  0
+                          }
+                      ]
+}

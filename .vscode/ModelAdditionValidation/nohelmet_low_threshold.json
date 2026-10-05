@@ -1,0 +1,26 @@
+﻿{
+    "frame_id":  500001,
+    "width":  640,
+    "height":  360,
+    "processing_ms":  192.0546000037575,
+    "inference_ms":  174.98880000493955,
+    "coordinate_origin":  "top_left",
+    "detections":  [
+
+                   ],
+    "raw_detections":  [
+
+                       ],
+    "classifications":  [
+
+                        ],
+    "model_results":  [
+                          {
+                              "model_id":  "nohelmet",
+                              "task":  "detect",
+                              "processing_ms":  189.30479999107774,
+                              "inference_ms":  174.98880000493955,
+                              "count":  0
+                          }
+                      ]
+}

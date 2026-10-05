@@ -1,0 +1,74 @@
+{
+  "helmet": {
+    "train": {
+      "images": 138,
+      "positive_images": 59,
+      "boxes": {
+        "1": 70
+      }
+    },
+    "val": {
+      "images": 26,
+      "positive_images": 9,
+      "boxes": {
+        "1": 9
+      }
+    },
+    "test": {
+      "images": 24,
+      "positive_images": 15,
+      "boxes": {
+        "1": 19
+      }
+    }
+  },
+  "nohelmet": {
+    "train": {
+      "images": 138,
+      "positive_images": 73,
+      "boxes": {
+        "0": 89
+      }
+    },
+    "val": {
+      "images": 26,
+      "positive_images": 12,
+      "boxes": {
+        "0": 16
+      }
+    },
+    "test": {
+      "images": 24,
+      "positive_images": 9,
+      "boxes": {
+        "0": 9
+      }
+    }
+  },
+  "forklift": {
+    "train": {
+      "images": 138,
+      "positive_images": 121,
+      "boxes": {
+        "3": 330,
+        "2": 57
+      }
+    },
+    "val": {
+      "images": 26,
+      "positive_images": 23,
+      "boxes": {
+        "3": 55,
+        "2": 6
+      }
+    },
+    "test": {
+      "images": 24,
+      "positive_images": 22,
+      "boxes": {
+        "3": 58,
+        "2": 9
+      }
+    }
+  }
+}

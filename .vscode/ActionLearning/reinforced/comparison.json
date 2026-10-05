@@ -1,0 +1,319 @@
+{
+  "helmet": {
+    "selected": "original",
+    "original": {
+      "validation": {
+        "tp": 9,
+        "fp": 9,
+        "fn": 2,
+        "tn": 136,
+        "precision": 0.5,
+        "recall": 0.8181818181818182,
+        "f1": 0.6206896551724138
+      },
+      "test": {
+        "tp": 12,
+        "fp": 0,
+        "fn": 4,
+        "tn": 130,
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571
+      },
+      "threshold_selected_on_validation": 0.75,
+      "limited_warning_events": 5,
+      "train_samples": 277,
+      "validation_samples": 156,
+      "test_samples": 146,
+      "epochs": 124
+    },
+    "candidate": {
+      "validation": {
+        "tp": 9,
+        "fp": 14,
+        "fn": 2,
+        "tn": 131,
+        "precision": 0.391304347826087,
+        "recall": 0.8181818181818182,
+        "f1": 0.5294117647058824
+      },
+      "test": {
+        "tp": 12,
+        "fp": 4,
+        "fn": 4,
+        "tn": 126,
+        "precision": 0.75,
+        "recall": 0.75,
+        "f1": 0.75
+      },
+      "threshold_selected_on_validation": 0.75,
+      "limited_warning_events": 5,
+      "train_samples": 1745,
+      "validation_samples": 156,
+      "test_samples": 146,
+      "epochs": 98
+    },
+    "automatic_teacher_holdout": {
+      "file": "C:\\Users\\a0105\\AppData\\LocalLow\\DefaultCompany\\project_pm\\SafetyDemonstrations\\AutomaticTeacher\\20261005_204635\\helmet_4.jsonl",
+      "original": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "tn": 17,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "selected": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "tn": 17,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    }
+  },
+  "stop": {
+    "selected": "reinforced",
+    "original": {
+      "validation": {
+        "tp": 40,
+        "fp": 4,
+        "fn": 2,
+        "tn": 96,
+        "precision": 0.9090909090909091,
+        "recall": 0.9523809523809523,
+        "f1": 0.9302325581395349
+      },
+      "test": {
+        "tp": 5,
+        "fp": 5,
+        "fn": 17,
+        "tn": 163,
+        "precision": 0.5,
+        "recall": 0.22727272727272727,
+        "f1": 0.3125
+      },
+      "threshold_selected_on_validation": 0.55,
+      "train_samples": 971,
+      "validation_samples": 142,
+      "test_samples": 190,
+      "epochs": 147
+    },
+    "candidate": {
+      "validation": {
+        "tp": 40,
+        "fp": 4,
+        "fn": 2,
+        "tn": 96,
+        "precision": 0.9090909090909091,
+        "recall": 0.9523809523809523,
+        "f1": 0.9302325581395349
+      },
+      "test": {
+        "tp": 9,
+        "fp": 5,
+        "fn": 13,
+        "tn": 163,
+        "precision": 0.6428571428571429,
+        "recall": 0.4090909090909091,
+        "f1": 0.5
+      },
+      "threshold_selected_on_validation": 0.55,
+      "train_samples": 5215,
+      "validation_samples": 142,
+      "test_samples": 190,
+      "epochs": 136
+    },
+    "automatic_teacher_holdout": {
+      "file": "C:\\Users\\a0105\\AppData\\LocalLow\\DefaultCompany\\project_pm\\SafetyDemonstrations\\AutomaticTeacher\\20261005_204635\\forklift_4.jsonl",
+      "original": {
+        "tp": 0,
+        "fp": 4,
+        "fn": 13,
+        "tn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "selected": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 13,
+        "tn": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    }
+  },
+  "equip": {
+    "selected": "original",
+    "original": {
+      "validation": {
+        "tp": 95,
+        "fp": 131,
+        "fn": 0,
+        "tn": 0,
+        "precision": 0.42035398230088494,
+        "recall": 1.0,
+        "f1": 0.5919003115264797
+      },
+      "test": {
+        "tp": 45,
+        "fp": 25,
+        "fn": 0,
+        "tn": 0,
+        "precision": 0.6428571428571429,
+        "recall": 1.0,
+        "f1": 0.782608695652174
+      },
+      "threshold_selected_on_validation": 0.35,
+      "train_samples": 393,
+      "validation_samples": 226,
+      "test_samples": 70,
+      "epochs": 50
+    },
+    "candidate": {
+      "validation": {
+        "tp": 95,
+        "fp": 131,
+        "fn": 0,
+        "tn": 0,
+        "precision": 0.42035398230088494,
+        "recall": 1.0,
+        "f1": 0.5919003115264797
+      },
+      "test": {
+        "tp": 45,
+        "fp": 25,
+        "fn": 0,
+        "tn": 0,
+        "precision": 0.6428571428571429,
+        "recall": 1.0,
+        "f1": 0.782608695652174
+      },
+      "threshold_selected_on_validation": 0.35,
+      "train_samples": 2325,
+      "validation_samples": 226,
+      "test_samples": 70,
+      "epochs": 55
+    },
+    "automatic_teacher_holdout": {
+      "file": "C:\\Users\\a0105\\AppData\\LocalLow\\DefaultCompany\\project_pm\\SafetyDemonstrations\\AutomaticTeacher\\20261005_204635\\fire_4.jsonl",
+      "original": {
+        "tp": 5,
+        "fp": 13,
+        "fn": 0,
+        "tn": 0,
+        "precision": 0.2777777777777778,
+        "recall": 1.0,
+        "f1": 0.43478260869565216
+      },
+      "selected": {
+        "tp": 5,
+        "fp": 13,
+        "fn": 0,
+        "tn": 0,
+        "precision": 0.2777777777777778,
+        "recall": 1.0,
+        "f1": 0.43478260869565216
+      }
+    }
+  },
+  "spray": {
+    "selected": "original",
+    "original": {
+      "validation": {
+        "tp": 40,
+        "fp": 140,
+        "fn": 0,
+        "tn": 46,
+        "precision": 0.2222222222222222,
+        "recall": 1.0,
+        "f1": 0.36363636363636365
+      },
+      "test": {
+        "tp": 19,
+        "fp": 24,
+        "fn": 0,
+        "tn": 27,
+        "precision": 0.4418604651162791,
+        "recall": 1.0,
+        "f1": 0.6129032258064516
+      },
+      "threshold_selected_on_validation": 0.35,
+      "train_samples": 393,
+      "validation_samples": 226,
+      "test_samples": 70,
+      "epochs": 65
+    },
+    "candidate": {
+      "validation": {
+        "tp": 15,
+        "fp": 3,
+        "fn": 25,
+        "tn": 183,
+        "precision": 0.8333333333333334,
+        "recall": 0.375,
+        "f1": 0.5172413793103449
+      },
+      "test": {
+        "tp": 4,
+        "fp": 4,
+        "fn": 15,
+        "tn": 47,
+        "precision": 0.5,
+        "recall": 0.21052631578947367,
+        "f1": 0.2962962962962963
+      },
+      "threshold_selected_on_validation": 0.65,
+      "train_samples": 2325,
+      "validation_samples": 226,
+      "test_samples": 70,
+      "epochs": 68
+    },
+    "automatic_teacher_holdout": {
+      "file": "C:\\Users\\a0105\\AppData\\LocalLow\\DefaultCompany\\project_pm\\SafetyDemonstrations\\AutomaticTeacher\\20261005_204635\\fire_4.jsonl",
+      "original": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 2,
+        "tn": 12,
+        "precision": 0.75,
+        "recall": 0.6,
+        "f1": 0.6666666666666666
+      },
+      "selected": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 2,
+        "tn": 12,
+        "precision": 0.75,
+        "recall": 0.6,
+        "f1": 0.6666666666666666
+      }
+    }
+  },
+  "aim": {
+    "selected": "original",
+    "original": {
+      "test_local_position_mae_m": 0.053205665200948715,
+      "test_direction_residual_mae": 0.060055527836084366,
+      "train_samples": 78,
+      "validation_samples": 36,
+      "test_samples": 19,
+      "epochs": 71
+    },
+    "candidate": {
+      "test_local_position_mae_m": 0.0636516734957695,
+      "test_direction_residual_mae": 0.05760679394006729,
+      "train_samples": 98,
+      "validation_samples": 36,
+      "test_samples": 19,
+      "epochs": 82
+    }
+  }
+}

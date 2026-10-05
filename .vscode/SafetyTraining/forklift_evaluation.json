@@ -1,0 +1,103 @@
+{
+  "forklift": {
+    "original_names": {
+      "0": "container",
+      "1": "crane",
+      "2": "forklift",
+      "3": "person",
+      "4": "ship",
+      "5": "stacker",
+      "6": "truck"
+    },
+    "original_architecture": "yolo26m.yaml",
+    "class_id": 2,
+    "baseline": {
+      "val": {
+        "tp": 8,
+        "fp": 7,
+        "fn": 7,
+        "precision": 0.5333333333333333,
+        "recall": 0.5333333333333333,
+        "positive_images": 15,
+        "negative_images": 27,
+        "negative_false_positive_images": 3
+      },
+      "test": {
+        "tp": 5,
+        "fp": 12,
+        "fn": 12,
+        "precision": 0.29411764705882354,
+        "recall": 0.29411764705882354,
+        "positive_images": 17,
+        "negative_images": 23,
+        "negative_false_positive_images": 9
+      }
+    },
+    "candidate_names": {
+      "0": "container",
+      "1": "crane",
+      "2": "forklift",
+      "3": "person",
+      "4": "ship",
+      "5": "stacker",
+      "6": "truck"
+    },
+    "threshold": 0.25,
+    "candidate": {
+      "val": {
+        "tp": 12,
+        "fp": 2,
+        "fn": 3,
+        "precision": 0.8571428571428571,
+        "recall": 0.8,
+        "positive_images": 15,
+        "negative_images": 27,
+        "negative_false_positive_images": 0
+      },
+      "test": {
+        "tp": 16,
+        "fp": 3,
+        "fn": 1,
+        "precision": 0.8421052631578947,
+        "recall": 0.9411764705882353,
+        "positive_images": 17,
+        "negative_images": 23,
+        "negative_false_positive_images": 0
+      }
+    },
+    "independent_holdout": {
+      "baseline": {
+        "tp": 23,
+        "fp": 22,
+        "fn": 27,
+        "precision": 0.5111111111111111,
+        "recall": 0.46,
+        "positive_images": 50,
+        "negative_images": 108,
+        "negative_false_positive_images": 18
+      },
+      "candidate": {
+        "tp": 32,
+        "fp": 38,
+        "fn": 18,
+        "precision": 0.45714285714285713,
+        "recall": 0.64,
+        "positive_images": 50,
+        "negative_images": 108,
+        "negative_false_positive_images": 20
+      }
+    },
+    "deployment_test": "independent_holdout",
+    "deployable": false,
+    "person": {
+      "tp": 49,
+      "fp": 6,
+      "fn": 1,
+      "precision": 0.8909090909090909,
+      "recall": 0.98,
+      "positive_images": 38,
+      "negative_images": 2,
+      "negative_false_positive_images": 0
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "helmet": {
+    "original_names": {
+      "0": "object",
+      "1": "safety_helmet_detection_0321 - v3 2024-03-27 8-32pm"
+    },
+    "original_architecture": "yolo26m.yaml",
+    "class_id": 1,
+    "baseline": {
+      "val": {
+        "tp": 3,
+        "fp": 3,
+        "fn": 9,
+        "precision": 0.5,
+        "recall": 0.25,
+        "positive_images": 12,
+        "negative_images": 30,
+        "negative_false_positive_images": 2
+      },
+      "test": {
+        "tp": 6,
+        "fp": 3,
+        "fn": 25,
+        "precision": 0.6666666666666666,
+        "recall": 0.1935483870967742,
+        "positive_images": 24,
+        "negative_images": 16,
+        "negative_false_positive_images": 3
+      }
+    },
+    "candidate_names": {
+      "0": "object",
+      "1": "safety_helmet_detection_0321 - v3 2024-03-27 8-32pm"
+    },
+    "threshold": 0.25,
+    "candidate": {
+      "val": {
+        "tp": 12,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "positive_images": 12,
+        "negative_images": 30,
+        "negative_false_positive_images": 0
+      },
+      "test": {
+        "tp": 31,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.96875,
+        "recall": 1.0,
+        "positive_images": 24,
+        "negative_images": 16,
+        "negative_false_positive_images": 1
+      }
+    },
+    "independent_holdout": {
+      "baseline": {
+        "tp": 6,
+        "fp": 8,
+        "fn": 85,
+        "precision": 0.42857142857142855,
+        "recall": 0.06593406593406594,
+        "positive_images": 75,
+        "negative_images": 83,
+        "negative_false_positive_images": 5
+      },
+      "candidate": {
+        "tp": 62,
+        "fp": 1,
+        "fn": 29,
+        "precision": 0.9841269841269841,
+        "recall": 0.6813186813186813,
+        "positive_images": 75,
+        "negative_images": 83,
+        "negative_false_positive_images": 0
+      }
+    },
+    "deployment_test": "independent_holdout",
+    "deployable": true
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "archive": "안전모 경고 학습.zip",
+  "files": [
+    {
+      "file": "20261005_193846_641.jsonl",
+      "samples": 165,
+      "duration": 20.99504852294922
+    },
+    {
+      "file": "20261005_193920_941.jsonl",
+      "samples": 155,
+      "duration": 19.185287475585938
+    },
+    {
+      "file": "20261005_193714_138.jsonl",
+      "samples": 125,
+      "duration": 15.439803123474121
+    },
+    {
+      "file": "20261005_193759_300.jsonl",
+      "samples": 60,
+      "duration": 7.8805694580078125
+    },
+    {
+      "file": "20261005_193819_769.jsonl",
+      "samples": 119,
+      "duration": 14.688165664672852
+    }
+  ],
+  "errors": 0,
+  "schemas": {
+    "2": 624
+  },
+  "events": {
+    "human_helmet_warning": 5
+  },
+  "states": {
+    "spray": 0,
+    "collision_stop": 0,
+    "helmet_warning": 82,
+    "collision_risk": 0,
+    "extinguisher_equipped": 0
+  },
+  "vision": {
+    "person": 514,
+    "forklift": 245,
+    "fire": 71,
+    "nohelmet": 352
+  },
+  "extinguished_max": 0,
+  "first_sample": {
+    "schema_version": 2,
+    "collision_risk_source": "yolo_image_boxes",
+    "observation_names": [
+      "person_detected",
+      "fire_detected",
+      "nohelmet_detected",
+      "image_collision_risk",
+      "spraying",
+      "normalized_image_foot_gap",
+      "extinguished_count"
+    ],
+    "time": 0.0,
+    "observations": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "head_position": {
+      "x": 30.9999942779541,
+      "y": 1.3914399147033691,
+      "z": 51.99999237060547
+    },
+    "right_position": {
+      "x": 30.9999942779541,
+      "y": 1.3914399147033691,
+      "z": 51.99999237060547
+    },
+    "head_rotation": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": -4.371138828673793e-08
+    },
+    "right_rotation": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": -4.371138828673793e-08
+    },
+    "spray": false,
+    "collision_stop": false,
+    "helmet_warning": false,
+    "extinguisher_equipped": false,
+    "collision_risk": false,
+    "control_mode": "human",
+    "right_controller_active": false,
+    "extinguished": 0,
+    "perception": {
+      "frame_id": 0,
+      "width": 0,
+      "height": 0,
+      "processing_ms": 0.0,
+      "inference_ms": 0.0,
+      "coordinate_origin": "",
+      "detections": [],
+      "raw_detections": [],
+      "classifications": [],
+      "model_results": []
+    }
+  },
+  "event_times": [
+    {
+      "kind": "human_action",
+      "time": 19.325172424316406,
+      "action": "human_helmet_warning"
+    },
+    {
+      "kind": "human_action",
+      "time": 16.902830123901367,
+      "action": "human_helmet_warning"
+    },
+    {
+      "kind": "human_action",
+      "time": 12.32210636138916,
+      "action": "human_helmet_warning"
+    },
+    {
+      "kind": "human_action",
+      "time": 5.584177494049072,
+      "action": "human_helmet_warning"
+    },
+    {
+      "kind": "human_action",
+      "time": 12.990506172180176,
+      "action": "human_helmet_warning"
+    }
+  ]
+}

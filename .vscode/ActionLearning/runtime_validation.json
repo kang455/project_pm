@@ -1,0 +1,16 @@
+{
+ "scene": "Assets/Scenes/VR_Warehouse.unity",
+ "input_archive_sessions": 17,
+ "export_maximum_absolute_error": 5.96046448e-8,
+ "live_helmet_warning_without_button_input": true,
+ "live_learned_equip_aim_spray_extinguished_fire": 1,
+ "live_learned_stop_command": true,
+ "live_stop_vehicle_directors": ["Forklift Independent Motion", "Reachlift Independent Motion"],
+ "live_stop_viewpoint_source": "training-session head pose and initial vehicle timeline time; current Unity-rendered images sent to YOLO",
+ "recorded_detections_injected_for_live_tests": false,
+ "console_errors": 0,
+ "default_run_ai": false,
+ "default_automatic_resume": false,
+ "model_status": "experimental; held-out forklift stop misses and equip/spray false positives remain",
+ "unverified": ["physical Quest behavior in AI mode", "generalization to unseen hazard layouts", "full humanoid arm control"]
+}

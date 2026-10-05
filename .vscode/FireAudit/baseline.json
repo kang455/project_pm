@@ -1,0 +1,151 @@
+﻿[
+    {
+        "image":  "view_00.jpg",
+        "detections":  [
+                           {
+                               "model_id":  "fire",
+                               "task":  "detect",
+                               "class_id":  0,
+                               "class_name":  "fire",
+                               "confidence":  0.6713225245475769,
+                               "xyxy":  [
+                                            450.7208251953125,
+                                            231.05062866210938,
+                                            559.9351806640625,
+                                            298.5578918457031
+                                        ],
+                               "keypoints":  [
+
+                                             ]
+                           }
+                       ]
+    },
+    {
+        "image":  "view_01.jpg",
+        "detections":  [
+
+                       ]
+    },
+    {
+        "image":  "view_02.jpg",
+        "detections":  [
+
+                       ]
+    },
+    {
+        "image":  "view_03.jpg",
+        "detections":  [
+
+                       ]
+    },
+    {
+        "image":  "view_04.jpg",
+        "detections":  [
+
+                       ]
+    },
+    {
+        "image":  "view_05.jpg",
+        "detections":  [
+
+                       ]
+    },
+    {
+        "image":  "view_06.jpg",
+        "detections":  [
+
+                       ]
+    },
+    {
+        "image":  "view_07.jpg",
+        "detections":  [
+
+                       ]
+    },
+    {
+        "image":  "view_08.jpg",
+        "detections":  [
+
+                       ]
+    },
+    {
+        "image":  "view_09.jpg",
+        "detections":  [
+                           {
+                               "model_id":  "fire",
+                               "task":  "detect",
+                               "class_id":  0,
+                               "class_name":  "fire",
+                               "confidence":  0.3524169921875,
+                               "xyxy":  [
+                                            518.769287109375,
+                                            139.77850341796875,
+                                            527.245361328125,
+                                            200.67919921875
+                                        ],
+                               "keypoints":  [
+
+                                             ]
+                           }
+                       ]
+    },
+    {
+        "image":  "view_10.jpg",
+        "detections":  [
+
+                       ]
+    },
+    {
+        "image":  "view_11.jpg",
+        "detections":  [
+                           {
+                               "model_id":  "fire",
+                               "task":  "detect",
+                               "class_id":  0,
+                               "class_name":  "fire",
+                               "confidence":  0.4670579433441162,
+                               "xyxy":  [
+                                            0.9035511016845703,
+                                            121.0845947265625,
+                                            16.26811981201172,
+                                            185.47073364257812
+                                        ],
+                               "keypoints":  [
+
+                                             ]
+                           },
+                           {
+                               "model_id":  "fire",
+                               "task":  "detect",
+                               "class_id":  0,
+                               "class_name":  "fire",
+                               "confidence":  0.32514920830726624,
+                               "xyxy":  [
+                                            102.24517822265625,
+                                            118.62579345703125,
+                                            120.80421447753906,
+                                            212.7294921875
+                                        ],
+                               "keypoints":  [
+
+                                             ]
+                           },
+                           {
+                               "model_id":  "fire",
+                               "task":  "detect",
+                               "class_id":  0,
+                               "class_name":  "fire",
+                               "confidence":  0.29272422194480896,
+                               "xyxy":  [
+                                            93.31805419921875,
+                                            122.77767944335938,
+                                            120.96047973632812,
+                                            213.44223022460938
+                                        ],
+                               "keypoints":  [
+
+                                             ]
+                           }
+                       ]
+    }
+]

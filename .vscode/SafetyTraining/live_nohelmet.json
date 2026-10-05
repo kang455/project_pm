@@ -1,0 +1,195 @@
+{
+    "frame_id": 590,
+    "width": 960,
+    "height": 540,
+    "processing_ms": 647.4661865234375,
+    "inference_ms": 574.2628784179688,
+    "coordinate_origin": "top_left",
+    "detections": [
+        {
+            "model_id": "nohelmet",
+            "task": "detect",
+            "class_name": "nohelmet",
+            "class_id": 0,
+            "confidence": 0.9613401293754578,
+            "xyxy": [
+                460.6958312988281,
+                238.1121826171875,
+                495.28033447265625,
+                284.01983642578125
+            ],
+            "keypoints": [],
+            "person_model_id": "forklift",
+            "person_class_id": 3,
+            "person_xyxy": [
+                401.81561279296875,
+                234.56204223632813,
+                551.431640625,
+                540.0
+            ],
+            "source": "",
+            "rejection_reason": ""
+        }
+    ],
+    "raw_detections": [
+        {
+            "model_id": "forklift",
+            "task": "detect",
+            "class_name": "person",
+            "class_id": 3,
+            "confidence": 0.9898850917816162,
+            "xyxy": [
+                401.81561279296875,
+                234.56204223632813,
+                551.431640625,
+                540.0
+            ],
+            "keypoints": [],
+            "person_model_id": "",
+            "person_class_id": 0,
+            "person_xyxy": [],
+            "source": "",
+            "rejection_reason": ""
+        },
+        {
+            "model_id": "forklift",
+            "task": "detect",
+            "class_name": "person",
+            "class_id": 3,
+            "confidence": 0.39718884229660034,
+            "xyxy": [
+                862.19189453125,
+                259.7179870605469,
+                877.9827270507813,
+                277.3144226074219
+            ],
+            "keypoints": [],
+            "person_model_id": "",
+            "person_class_id": 0,
+            "person_xyxy": [],
+            "source": "",
+            "rejection_reason": ""
+        },
+        {
+            "model_id": "person",
+            "task": "detect",
+            "class_name": "1",
+            "class_id": 1,
+            "confidence": 0.5945034623146057,
+            "xyxy": [
+                398.62921142578125,
+                232.7801513671875,
+                557.00244140625,
+                540.0
+            ],
+            "keypoints": [],
+            "person_model_id": "",
+            "person_class_id": 0,
+            "person_xyxy": [],
+            "source": "",
+            "rejection_reason": "unverified_class_semantics"
+        },
+        {
+            "model_id": "person",
+            "task": "detect",
+            "class_name": "0",
+            "class_id": 0,
+            "confidence": 0.46644508838653564,
+            "xyxy": [
+                398.5067138671875,
+                233.398681640625,
+                556.7085571289063,
+                540.0
+            ],
+            "keypoints": [],
+            "person_model_id": "",
+            "person_class_id": 0,
+            "person_xyxy": [],
+            "source": "",
+            "rejection_reason": "unverified_class_semantics"
+        },
+        {
+            "model_id": "fire2",
+            "task": "detect",
+            "class_name": "2",
+            "class_id": 2,
+            "confidence": 0.43324577808380127,
+            "xyxy": [
+                784.302978515625,
+                222.22769165039063,
+                805.241455078125,
+                271.9496154785156
+            ],
+            "keypoints": [],
+            "person_model_id": "",
+            "person_class_id": 0,
+            "person_xyxy": [],
+            "source": "",
+            "rejection_reason": "unverified_class_semantics"
+        },
+        {
+            "model_id": "nohelmet",
+            "task": "detect",
+            "class_name": "nohelmet",
+            "class_id": 0,
+            "confidence": 0.9613401293754578,
+            "xyxy": [
+                460.6958312988281,
+                238.1121826171875,
+                495.28033447265625,
+                284.01983642578125
+            ],
+            "keypoints": [],
+            "person_model_id": "",
+            "person_class_id": 0,
+            "person_xyxy": [],
+            "source": "",
+            "rejection_reason": ""
+        }
+    ],
+    "classifications": [],
+    "model_results": [
+        {
+            "model_id": "forklift",
+            "task": "detect",
+            "processing_ms": 43.376800537109375,
+            "inference_ms": 38.85380172729492,
+            "count": 2
+        },
+        {
+            "model_id": "helmet",
+            "task": "detect",
+            "processing_ms": 44.85110092163086,
+            "inference_ms": 41.10380172729492,
+            "count": 0
+        },
+        {
+            "model_id": "fire",
+            "task": "detect",
+            "processing_ms": 37.320499420166016,
+            "inference_ms": 33.90420150756836,
+            "count": 0
+        },
+        {
+            "model_id": "person",
+            "task": "detect",
+            "processing_ms": 216.69619750976563,
+            "inference_ms": 208.4882049560547,
+            "count": 0
+        },
+        {
+            "model_id": "fire2",
+            "task": "detect",
+            "processing_ms": 222.77940368652344,
+            "inference_ms": 212.60549926757813,
+            "count": 0
+        },
+        {
+            "model_id": "nohelmet",
+            "task": "detect",
+            "processing_ms": 45.14139938354492,
+            "inference_ms": 39.30739974975586,
+            "count": 1
+        }
+    ]
+}

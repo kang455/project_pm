@@ -1,0 +1,22 @@
+{
+  "scene": "Assets/Scenes/VR_Warehouse.unity",
+  "person_model": "Tools/YoloBridge/person_warehouse.pt",
+  "person_task": "detect",
+  "person_classes": {"0": "person"},
+  "live_accepted_classes": ["person", "person", "nohelmet"],
+  "live_successful_responses": 55,
+  "live_failed_requests": 0,
+  "person_on_path_stopped_forklift": true,
+  "moving_person_aside_resumed_forklift": true,
+  "yolo_fire_activated_extinguisher": true,
+  "software_spray_destroyed_fire": true,
+  "fire_extinguished_event": true,
+  "nohelmet_warning_displayed": true,
+  "demonstration_jsonl_written": true,
+  "console_errors": 0,
+  "scene_missing_scripts": 0,
+  "play_stopped": true,
+  "unverified": ["Quest physical trigger", "Quest attachment fit", "Quest headset/controller tracking during tool use"],
+  "motion_policy_trained": false,
+  "collision_prediction_source": "actual scene geometry, not inferred 3D from YOLO boxes"
+}

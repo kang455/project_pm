@@ -1,0 +1,19 @@
+{
+  "settings_version": "0.0.8",
+  "datasets_dir": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\datasets",
+  "weights_dir": "weights",
+  "runs_dir": "runs",
+  "uuid": "ee0072857f888acdd9a16be53db038a5ec5cf342edf6373a5655532f96a4adda",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "mlflow": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": true
+}

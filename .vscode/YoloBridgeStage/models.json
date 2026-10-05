@@ -1,0 +1,9 @@
+{
+  "models": [
+    {"model_id":"forklift", "weights":"forklift.pt", "enabled":true, "confidence":0.25},
+    {"model_id":"helmet", "weights":"helmet.pt", "enabled":true, "confidence":0.25},
+    {"model_id":"fire", "weights":"fire.pt", "enabled":true, "confidence":0.25, "class_min_confidence":{"0":0.90}, "expected_class_names":{"0":"fire","1":"smoke"}},
+    {"model_id":"person", "weights":"person.pt", "enabled":true, "confidence":0.25},
+    {"model_id":"lying_person", "weights":"lying_person.pt", "enabled":true, "confidence":0.25}
+  ]
+}

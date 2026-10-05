@@ -1,0 +1,7 @@
+path: 'D:/새 폴더/unity project/project_pm/.vscode/FireTraining/dataset'
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: fire
+  1: smoke

@@ -1,0 +1,267 @@
+[
+  {
+    "image": "FireStreamFix\\flame.jpg",
+    "fire": 1,
+    "raw": [
+      {
+        "model_id": "fire",
+        "task": "detect",
+        "class_id": 0,
+        "class_name": "fire",
+        "confidence": 0.5769185423851013,
+        "xyxy": [
+          457.25189208984375,
+          235.4263916015625,
+          496.9017333984375,
+          315.6427917480469
+        ],
+        "keypoints": [],
+        "rejection_reason": "awaiting_camera_aligned_motion"
+      },
+      {
+        "model_id": "fire",
+        "task": "detect",
+        "class_id": 0,
+        "class_name": "fire",
+        "confidence": 0.3006681501865387,
+        "xyxy": [
+          454.35260009765625,
+          231.935302734375,
+          497.8359375,
+          317.40472412109375
+        ],
+        "keypoints": []
+      }
+    ]
+  },
+  {
+    "image": "FireStreamFix\\flame2.jpg",
+    "fire": 1,
+    "raw": [
+      {
+        "model_id": "fire",
+        "task": "detect",
+        "class_id": 0,
+        "class_name": "fire",
+        "confidence": 0.571484386920929,
+        "xyxy": [
+          457.0710144042969,
+          235.1810302734375,
+          497.1398010253906,
+          316.0258483886719
+        ],
+        "keypoints": []
+      },
+      {
+        "model_id": "fire",
+        "task": "detect",
+        "class_id": 0,
+        "class_name": "fire",
+        "confidence": 0.30929991602897644,
+        "xyxy": [
+          454.5848693847656,
+          231.9038543701172,
+          497.8426208496094,
+          317.2994689941406
+        ],
+        "keypoints": []
+      }
+    ]
+  },
+  {
+    "image": "DetectionImprove\\ForcedFlame\\120.jpg",
+    "fire": 1,
+    "raw": [
+      {
+        "model_id": "fire",
+        "task": "detect",
+        "class_id": 0,
+        "class_name": "fire",
+        "confidence": 0.4121153652667999,
+        "xyxy": [
+          450.3494567871094,
+          259.54302978515625,
+          514.2953491210938,
+          339.87738037109375
+        ],
+        "keypoints": []
+      }
+    ]
+  },
+  {
+    "image": "DetectionImprove\\ForcedFlame\\121.jpg",
+    "fire": 1,
+    "raw": [
+      {
+        "model_id": "fire",
+        "task": "detect",
+        "class_id": 0,
+        "class_name": "fire",
+        "confidence": 0.7022870182991028,
+        "xyxy": [
+          450.0502014160156,
+          243.90367126464844,
+          507.0069885253906,
+          339.0372009277344
+        ],
+        "keypoints": []
+      },
+      {
+        "model_id": "fire",
+        "task": "detect",
+        "class_id": 0,
+        "class_name": "fire",
+        "confidence": 0.2636319696903229,
+        "xyxy": [
+          447.90887451171875,
+          228.70761108398438,
+          507.63238525390625,
+          335.8221130371094
+        ],
+        "keypoints": []
+      }
+    ]
+  },
+  {
+    "image": "DetectionImprove\\ForcedFlame\\122.jpg",
+    "fire": 1,
+    "raw": [
+      {
+        "model_id": "fire",
+        "task": "detect",
+        "class_id": 0,
+        "class_name": "fire",
+        "confidence": 0.38785064220428467,
+        "xyxy": [
+          455.0950927734375,
+          233.83090209960938,
+          509.4255065917969,
+          333.1875915527344
+        ],
+        "keypoints": []
+      }
+    ]
+  },
+  {
+    "image": "DetectionImprove\\ForcedFlame\\123.jpg",
+    "fire": 1,
+    "raw": [
+      {
+        "model_id": "fire",
+        "task": "detect",
+        "class_id": 0,
+        "class_name": "fire",
+        "confidence": 0.2698238790035248,
+        "xyxy": [
+          454.6663513183594,
+          227.7828369140625,
+          506.2889099121094,
+          331.96820068359375
+        ],
+        "keypoints": []
+      }
+    ]
+  },
+  {
+    "image": "DetectionImprove\\ForcedFlame\\124.jpg",
+    "fire": 1,
+    "raw": [
+      {
+        "model_id": "fire",
+        "task": "detect",
+        "class_id": 0,
+        "class_name": "fire",
+        "confidence": 0.4185944199562073,
+        "xyxy": [
+          453.4607849121094,
+          221.89732360839844,
+          503.2504577636719,
+          332.07147216796875
+        ],
+        "keypoints": []
+      }
+    ]
+  },
+  {
+    "image": "DetectionImprove\\ForcedFlame\\125.jpg",
+    "fire": 1,
+    "raw": [
+      {
+        "model_id": "fire",
+        "task": "detect",
+        "class_id": 0,
+        "class_name": "fire",
+        "confidence": 0.33067265152931213,
+        "xyxy": [
+          450.7218017578125,
+          249.77142333984375,
+          502.74920654296875,
+          338.31878662109375
+        ],
+        "keypoints": []
+      },
+      {
+        "model_id": "fire",
+        "task": "detect",
+        "class_id": 0,
+        "class_name": "fire",
+        "confidence": 0.2825857996940613,
+        "xyxy": [
+          449.48199462890625,
+          223.77955627441406,
+          506.9615478515625,
+          339.5689392089844
+        ],
+        "keypoints": []
+      }
+    ]
+  },
+  {
+    "image": "FireAudit\\view_00.jpg",
+    "fire": 0
+  },
+  {
+    "image": "FireAudit\\view_01.jpg",
+    "fire": 0
+  },
+  {
+    "image": "FireAudit\\view_02.jpg",
+    "fire": 0
+  },
+  {
+    "image": "FireAudit\\view_03.jpg",
+    "fire": 0
+  },
+  {
+    "image": "FireAudit\\view_04.jpg",
+    "fire": 0
+  },
+  {
+    "image": "FireAudit\\view_05.jpg",
+    "fire": 0
+  },
+  {
+    "image": "FireAudit\\view_06.jpg",
+    "fire": 0
+  },
+  {
+    "image": "FireAudit\\view_07.jpg",
+    "fire": 0
+  },
+  {
+    "image": "FireAudit\\view_08.jpg",
+    "fire": 0
+  },
+  {
+    "image": "FireAudit\\view_09.jpg",
+    "fire": 0
+  },
+  {
+    "image": "FireAudit\\view_10.jpg",
+    "fire": 0
+  },
+  {
+    "image": "FireAudit\\view_11.jpg",
+    "fire": 0
+  }
+]

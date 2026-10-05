@@ -1,0 +1,86 @@
+{
+  "frame_id": 2,
+  "width": 640,
+  "height": 360,
+  "processing_ms": 1049.1387999936705,
+  "inference_ms": 1005.943699987256,
+  "coordinate_origin": "top_left",
+  "detections": [],
+  "raw_detections": [
+    {
+      "model_id": "fire2",
+      "task": "detect",
+      "class_id": 2,
+      "class_name": "2",
+      "confidence": 0.6972371935844421,
+      "xyxy": [
+        462.36505126953125,
+        122.48068237304688,
+        484.40509033203125,
+        189.06900024414062
+      ],
+      "keypoints": [],
+      "rejection_reason": "unverified_class_semantics"
+    },
+    {
+      "model_id": "fire2",
+      "task": "detect",
+      "class_id": 2,
+      "class_name": "2",
+      "confidence": 0.5914990305900574,
+      "xyxy": [
+        576.7637939453125,
+        131.49383544921875,
+        599.0458984375,
+        185.95999145507812
+      ],
+      "keypoints": [],
+      "rejection_reason": "unverified_class_semantics"
+    }
+  ],
+  "classifications": [],
+  "model_results": [
+    {
+      "model_id": "forklift",
+      "task": "detect",
+      "processing_ms": 170.1766000041971,
+      "inference_ms": 166.69169999659061,
+      "count": 0
+    },
+    {
+      "model_id": "helmet",
+      "task": "detect",
+      "processing_ms": 172.13859999901615,
+      "inference_ms": 167.77459999138955,
+      "count": 0
+    },
+    {
+      "model_id": "fire",
+      "task": "detect",
+      "processing_ms": 172.35369999252725,
+      "inference_ms": 168.82549998990726,
+      "count": 0
+    },
+    {
+      "model_id": "person",
+      "task": "detect",
+      "processing_ms": 167.42479999084026,
+      "inference_ms": 163.93980001157615,
+      "count": 0
+    },
+    {
+      "model_id": "fire2",
+      "task": "detect",
+      "processing_ms": 175.14519998803735,
+      "inference_ms": 171.22350000136066,
+      "count": 0
+    },
+    {
+      "model_id": "nohelmet",
+      "task": "detect",
+      "processing_ms": 170.86589999962598,
+      "inference_ms": 167.48859999643173,
+      "count": 0
+    }
+  ]
+}

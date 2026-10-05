@@ -1,0 +1,9 @@
+{
+  "frames": 12,
+  "before_fire_boxes": 5,
+  "before_frames_with_fire": 3,
+  "after_fire_boxes": 0,
+  "after_frames_with_fire": 0,
+  "raw_after_boxes": 5,
+  "same_original_outputs": true
+}

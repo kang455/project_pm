@@ -1,0 +1,59 @@
+{
+  "helmet": {
+    "metric": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "positive_images": 12,
+      "negative_images": 30,
+      "negative_false_positive_images": 0
+    },
+    "threshold": 0.25,
+    "epoch": -1,
+    "ready": true,
+    "person": null
+  },
+  "nohelmet": {
+    "metric": {
+      "tp": 27,
+      "fp": 0,
+      "fn": 7,
+      "precision": 1.0,
+      "recall": 0.7941176470588235,
+      "positive_images": 27,
+      "negative_images": 15,
+      "negative_false_positive_images": 0
+    },
+    "threshold": 0.25,
+    "epoch": -1,
+    "ready": false,
+    "person": null
+  },
+  "forklift": {
+    "metric": {
+      "tp": 16,
+      "fp": 0,
+      "fn": 10,
+      "precision": 1.0,
+      "recall": 0.6153846153846154,
+      "positive_images": 22,
+      "negative_images": 40,
+      "negative_false_positive_images": 0
+    },
+    "threshold": 0.45,
+    "epoch": 2,
+    "ready": false,
+    "person": {
+      "tp": 83,
+      "fp": 5,
+      "fn": 53,
+      "precision": 0.9431818181818182,
+      "recall": 0.6102941176470589,
+      "positive_images": 51,
+      "negative_images": 11,
+      "negative_false_positive_images": 0
+    }
+  }
+}

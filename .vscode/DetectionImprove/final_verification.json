@@ -1,0 +1,96 @@
+{
+  "negative_views": [
+    {
+      "image": "view_00.jpg",
+      "fire": 0
+    },
+    {
+      "image": "view_01.jpg",
+      "fire": 0
+    },
+    {
+      "image": "view_02.jpg",
+      "fire": 0
+    },
+    {
+      "image": "view_03.jpg",
+      "fire": 0
+    },
+    {
+      "image": "view_04.jpg",
+      "fire": 0
+    },
+    {
+      "image": "view_05.jpg",
+      "fire": 0
+    },
+    {
+      "image": "view_06.jpg",
+      "fire": 0
+    },
+    {
+      "image": "view_07.jpg",
+      "fire": 0
+    },
+    {
+      "image": "view_08.jpg",
+      "fire": 0
+    },
+    {
+      "image": "view_09.jpg",
+      "fire": 0
+    },
+    {
+      "image": "view_10.jpg",
+      "fire": 0
+    },
+    {
+      "image": "view_11.jpg",
+      "fire": 0
+    }
+  ],
+  "real_flame_frames": [
+    {
+      "image": "120.jpg",
+      "fire": 0
+    },
+    {
+      "image": "121.jpg",
+      "fire": 1
+    },
+    {
+      "image": "122.jpg",
+      "fire": 1
+    },
+    {
+      "image": "123.jpg",
+      "fire": 1
+    },
+    {
+      "image": "124.jpg",
+      "fire": 1
+    },
+    {
+      "image": "125.jpg",
+      "fire": 1
+    }
+  ],
+  "people": [
+    {
+      "image": "BareheadFrontal.jpg",
+      "nohelmet": 1
+    },
+    {
+      "image": "YellowHelmetPair.jpg",
+      "nohelmet": 0
+    },
+    {
+      "image": "user_game_0.jpg",
+      "nohelmet": 1
+    },
+    {
+      "image": "user_game_1.jpg",
+      "nohelmet": 0
+    }
+  ]
+}

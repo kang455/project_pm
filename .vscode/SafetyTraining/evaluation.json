@@ -1,0 +1,266 @@
+{
+  "helmet": {
+    "original_names": {
+      "0": "object",
+      "1": "safety_helmet_detection_0321 - v3 2024-03-27 8-32pm"
+    },
+    "original_architecture": "yolo26m.yaml",
+    "class_id": 1,
+    "baseline": {
+      "val": {
+        "tp": 3,
+        "fp": 3,
+        "fn": 9,
+        "precision": 0.5,
+        "recall": 0.25,
+        "positive_images": 12,
+        "negative_images": 30,
+        "negative_false_positive_images": 2
+      },
+      "test": {
+        "tp": 6,
+        "fp": 3,
+        "fn": 25,
+        "precision": 0.6666666666666666,
+        "recall": 0.1935483870967742,
+        "positive_images": 24,
+        "negative_images": 16,
+        "negative_false_positive_images": 3
+      }
+    },
+    "candidate_names": {
+      "0": "object",
+      "1": "safety_helmet_detection_0321 - v3 2024-03-27 8-32pm"
+    },
+    "threshold": 0.25,
+    "candidate": {
+      "val": {
+        "tp": 12,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "positive_images": 12,
+        "negative_images": 30,
+        "negative_false_positive_images": 0
+      },
+      "test": {
+        "tp": 31,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.96875,
+        "recall": 1.0,
+        "positive_images": 24,
+        "negative_images": 16,
+        "negative_false_positive_images": 1
+      }
+    },
+    "independent_holdout": {
+      "baseline": {
+        "tp": 9,
+        "fp": 6,
+        "fn": 89,
+        "precision": 0.6,
+        "recall": 0.09183673469387756,
+        "positive_images": 83,
+        "negative_images": 105,
+        "negative_false_positive_images": 4
+      },
+      "candidate": {
+        "tp": 71,
+        "fp": 4,
+        "fn": 27,
+        "precision": 0.9466666666666667,
+        "recall": 0.7244897959183674,
+        "positive_images": 83,
+        "negative_images": 105,
+        "negative_false_positive_images": 3
+      }
+    },
+    "deployment_test": "final_holdout",
+    "deployable": true
+  },
+  "nohelmet": {
+    "original_names": {
+      "0": "nohelmet"
+    },
+    "original_architecture": "yolo26m.yaml",
+    "class_id": 0,
+    "baseline": {
+      "val": {
+        "tp": 9,
+        "fp": 6,
+        "fn": 25,
+        "precision": 0.6,
+        "recall": 0.2647058823529412,
+        "positive_images": 27,
+        "negative_images": 15,
+        "negative_false_positive_images": 5
+      },
+      "test": {
+        "tp": 2,
+        "fp": 4,
+        "fn": 19,
+        "precision": 0.3333333333333333,
+        "recall": 0.09523809523809523,
+        "positive_images": 21,
+        "negative_images": 19,
+        "negative_false_positive_images": 2
+      }
+    },
+    "candidate_names": {
+      "0": "nohelmet"
+    },
+    "threshold": 0.25,
+    "candidate": {
+      "val": {
+        "tp": 27,
+        "fp": 0,
+        "fn": 7,
+        "precision": 1.0,
+        "recall": 0.7941176470588235,
+        "positive_images": 27,
+        "negative_images": 15,
+        "negative_false_positive_images": 0
+      },
+      "test": {
+        "tp": 20,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.9090909090909091,
+        "recall": 0.9523809523809523,
+        "positive_images": 21,
+        "negative_images": 19,
+        "negative_false_positive_images": 1
+      }
+    },
+    "independent_holdout": {
+      "baseline": {
+        "tp": 2,
+        "fp": 14,
+        "fn": 112,
+        "precision": 0.125,
+        "recall": 0.017543859649122806,
+        "positive_images": 94,
+        "negative_images": 94,
+        "negative_false_positive_images": 8
+      },
+      "candidate": {
+        "tp": 94,
+        "fp": 9,
+        "fn": 20,
+        "precision": 0.912621359223301,
+        "recall": 0.8245614035087719,
+        "positive_images": 94,
+        "negative_images": 94,
+        "negative_false_positive_images": 4
+      }
+    },
+    "deployment_test": "final_holdout",
+    "deployable": true
+  },
+  "forklift": {
+    "original_names": {
+      "0": "container",
+      "1": "crane",
+      "2": "forklift",
+      "3": "person",
+      "4": "ship",
+      "5": "stacker",
+      "6": "truck"
+    },
+    "original_architecture": "yolo26m.yaml",
+    "class_id": 2,
+    "baseline": {
+      "val": {
+        "tp": 7,
+        "fp": 2,
+        "fn": 19,
+        "precision": 0.7777777777777778,
+        "recall": 0.2692307692307692,
+        "positive_images": 22,
+        "negative_images": 40,
+        "negative_false_positive_images": 2
+      },
+      "test": {
+        "tp": 8,
+        "fp": 2,
+        "fn": 15,
+        "precision": 0.8,
+        "recall": 0.34782608695652173,
+        "positive_images": 23,
+        "negative_images": 35,
+        "negative_false_positive_images": 0
+      }
+    },
+    "candidate_names": {
+      "0": "container",
+      "1": "crane",
+      "2": "forklift",
+      "3": "person",
+      "4": "ship",
+      "5": "stacker",
+      "6": "truck"
+    },
+    "threshold": 0.25,
+    "candidate": {
+      "val": {
+        "tp": 15,
+        "fp": 0,
+        "fn": 11,
+        "precision": 1.0,
+        "recall": 0.5769230769230769,
+        "positive_images": 22,
+        "negative_images": 40,
+        "negative_false_positive_images": 0
+      },
+      "test": {
+        "tp": 20,
+        "fp": 0,
+        "fn": 3,
+        "precision": 1.0,
+        "recall": 0.8695652173913043,
+        "positive_images": 23,
+        "negative_images": 35,
+        "negative_false_positive_images": 0
+      }
+    },
+    "independent_holdout": {
+      "baseline": {
+        "tp": 18,
+        "fp": 22,
+        "fn": 54,
+        "precision": 0.45,
+        "recall": 0.25,
+        "positive_images": 72,
+        "negative_images": 116,
+        "negative_false_positive_images": 13
+      },
+      "candidate": {
+        "tp": 38,
+        "fp": 0,
+        "fn": 34,
+        "precision": 1.0,
+        "recall": 0.5277777777777778,
+        "positive_images": 72,
+        "negative_images": 116,
+        "negative_false_positive_images": 0
+      }
+    },
+    "deployment_test": "final_holdout",
+    "deployable": true,
+    "person": {
+      "tp": 71,
+      "fp": 7,
+      "fn": 49,
+      "precision": 0.9102564102564102,
+      "recall": 0.5916666666666667,
+      "positive_images": 44,
+      "negative_images": 14,
+      "negative_false_positive_images": 0
+    },
+    "meets_absolute_recall_gate": false,
+    "deployment_gate": "relative_improvement",
+    "deployment_reason": "Recall is below the initial 0.65 goal, but both recall and precision improve substantially over the original. Misses remain explicitly reported."
+  }
+}

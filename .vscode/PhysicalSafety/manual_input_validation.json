@@ -1,0 +1,11 @@
+{
+ "validation_source": "synthetic Input System XR controllers, not physical Quest hardware",
+ "right_A_warning": true,
+ "right_B_stop_resume": true,
+ "left_X_equip_stow": true,
+ "right_trigger_spray": true,
+ "trigger_extinguished_actual_fire": true,
+ "human_action_events_recorded": true,
+ "perception_separate_from_demonstration_actions": true,
+ "console_errors": 0
+}

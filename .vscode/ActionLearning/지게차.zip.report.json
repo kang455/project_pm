@@ -1,0 +1,184 @@
+{
+  "archive": "지게차.zip",
+  "files": [
+    {
+      "file": "20261005_194432_378.jsonl",
+      "samples": 150,
+      "duration": 18.80916976928711
+    },
+    {
+      "file": "20261005_194506_767.jsonl",
+      "samples": 209,
+      "duration": 26.105785369873047
+    },
+    {
+      "file": "20261005_194546_445.jsonl",
+      "samples": 237,
+      "duration": 29.153362274169922
+    },
+    {
+      "file": "20261005_194630_298.jsonl",
+      "samples": 222,
+      "duration": 26.842378616333008
+    },
+    {
+      "file": "20261005_194714_880.jsonl",
+      "samples": 198,
+      "duration": 23.87818717956543
+    },
+    {
+      "file": "20261005_194842_270.jsonl",
+      "samples": 151,
+      "duration": 18.65638542175293
+    },
+    {
+      "file": "20261005_194913_793.jsonl",
+      "samples": 199,
+      "duration": 24.197050094604492
+    }
+  ],
+  "errors": 0,
+  "schemas": {
+    "2": 1366
+  },
+  "events": {
+    "human_forklift_stop": 9,
+    "human_forklift_resume": 2
+  },
+  "states": {
+    "spray": 0,
+    "collision_stop": 265,
+    "helmet_warning": 0,
+    "collision_risk": 281,
+    "extinguisher_equipped": 0
+  },
+  "vision": {
+    "person": 1255,
+    "forklift": 1241,
+    "fire": 533,
+    "nohelmet": 978
+  },
+  "extinguished_max": 0,
+  "first_sample": {
+    "schema_version": 2,
+    "collision_risk_source": "yolo_image_boxes",
+    "observation_names": [
+      "person_detected",
+      "fire_detected",
+      "nohelmet_detected",
+      "image_collision_risk",
+      "spraying",
+      "normalized_image_foot_gap",
+      "extinguished_count"
+    ],
+    "time": 0.0,
+    "observations": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "head_position": {
+      "x": 30.9999942779541,
+      "y": 1.3914399147033691,
+      "z": 51.99999237060547
+    },
+    "right_position": {
+      "x": 30.9999942779541,
+      "y": 1.3914399147033691,
+      "z": 51.99999237060547
+    },
+    "head_rotation": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": -4.371138828673793e-08
+    },
+    "right_rotation": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": -4.371138828673793e-08
+    },
+    "spray": false,
+    "collision_stop": false,
+    "helmet_warning": false,
+    "extinguisher_equipped": false,
+    "collision_risk": false,
+    "control_mode": "human",
+    "right_controller_active": false,
+    "extinguished": 0,
+    "perception": {
+      "frame_id": 0,
+      "width": 0,
+      "height": 0,
+      "processing_ms": 0.0,
+      "inference_ms": 0.0,
+      "coordinate_origin": "",
+      "detections": [],
+      "raw_detections": [],
+      "classifications": [],
+      "model_results": []
+    }
+  },
+  "event_times": [
+    {
+      "kind": "human_action",
+      "time": 13.867606163024902,
+      "action": "human_forklift_stop"
+    },
+    {
+      "kind": "human_action",
+      "time": 21.721080780029297,
+      "action": "human_forklift_stop"
+    },
+    {
+      "kind": "human_action",
+      "time": 21.3577823638916,
+      "action": "human_forklift_stop"
+    },
+    {
+      "kind": "human_action",
+      "time": 25.952064514160156,
+      "action": "human_forklift_resume"
+    },
+    {
+      "kind": "human_action",
+      "time": 26.425491333007812,
+      "action": "human_forklift_stop"
+    },
+    {
+      "kind": "human_action",
+      "time": 21.023733139038086,
+      "action": "human_forklift_stop"
+    },
+    {
+      "kind": "human_action",
+      "time": 23.460060119628906,
+      "action": "human_forklift_resume"
+    },
+    {
+      "kind": "human_action",
+      "time": 23.919496536254883,
+      "action": "human_forklift_stop"
+    },
+    {
+      "kind": "human_action",
+      "time": 21.150245666503906,
+      "action": "human_forklift_stop"
+    },
+    {
+      "kind": "human_action",
+      "time": 13.394566535949707,
+      "action": "human_forklift_stop"
+    },
+    {
+      "kind": "human_action",
+      "time": 21.218477249145508,
+      "action": "human_forklift_stop"
+    }
+  ]
+}

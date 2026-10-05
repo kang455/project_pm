@@ -1,0 +1,93 @@
+[
+  {
+    "image": "FireAudit\\view_00.jpg.before.json",
+    "confidence": 0.6713225245475769,
+    "box": [
+      450.7208251953125,
+      231.05062866210938,
+      559.9351806640625,
+      298.5578918457031
+    ],
+    "fill": 0.1098,
+    "components": 12,
+    "largest_fraction": 0.0968
+  },
+  {
+    "image": "FireAudit\\view_09.jpg.before.json",
+    "confidence": 0.3524169921875,
+    "box": [
+      518.769287109375,
+      139.77850341796875,
+      527.245361328125,
+      200.67919921875
+    ],
+    "fill": 0.7869,
+    "components": 1,
+    "largest_fraction": 0.7869
+  },
+  {
+    "image": "FireAudit\\view_11.jpg.before.json",
+    "confidence": 0.4670579433441162,
+    "box": [
+      0.9035511016845703,
+      121.0845947265625,
+      16.26811981201172,
+      185.47073364257812
+    ],
+    "fill": 0.5957,
+    "components": 1,
+    "largest_fraction": 0.5957
+  },
+  {
+    "image": "FireAudit\\view_11.jpg.before.json",
+    "confidence": 0.32514920830726624,
+    "box": [
+      102.24517822265625,
+      118.62579345703125,
+      120.80421447753906,
+      212.7294921875
+    ],
+    "fill": 0.3381,
+    "components": 1,
+    "largest_fraction": 0.3369
+  },
+  {
+    "image": "FireAudit\\view_11.jpg.before.json",
+    "confidence": 0.29272422194480896,
+    "box": [
+      93.31805419921875,
+      122.77767944335938,
+      120.96047973632812,
+      213.44223022460938
+    ],
+    "fill": 0.2332,
+    "components": 1,
+    "largest_fraction": 0.232
+  },
+  {
+    "image": "SceneSafetyValidation\\Comparison_1.jpg.json",
+    "confidence": 0.42241212725639343,
+    "box": [
+      295.53363037109375,
+      186.4359130859375,
+      340.40216064453125,
+      258.39031982421875
+    ],
+    "fill": 0.5605,
+    "components": 1,
+    "largest_fraction": 0.5605
+  },
+  {
+    "image": "SceneSafetyValidation\\Comparison_3.jpg.json",
+    "confidence": 0.31251955032348633,
+    "box": [
+      277.311767578125,
+      177.29144287109375,
+      363.37359619140625,
+      285.59686279296875
+    ],
+    "fill": 0.6499,
+    "components": 5,
+    "largest_fraction": 0.6451
+  }
+]

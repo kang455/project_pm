@@ -1,0 +1,182 @@
+{
+  "archives": [
+    {
+      "topic": "helmet",
+      "sha256": "76f79d3a770338a487ab9330863d9084a4c0c6f938878d96cfc9c7b1d856d28e",
+      "splits": {
+        "train": [
+          "20261005_193714_138.jsonl",
+          "20261005_193759_300.jsonl",
+          "20261005_193819_769.jsonl"
+        ],
+        "val": [
+          "20261005_193846_641.jsonl"
+        ],
+        "test": [
+          "20261005_193920_941.jsonl"
+        ]
+      }
+    },
+    {
+      "topic": "forklift",
+      "sha256": "767de49f81e9d73d08f4f4334bf2f401f0f738a7f18cd25af426d0786bceb720",
+      "splits": {
+        "train": [
+          "20261005_194432_378.jsonl",
+          "20261005_194506_767.jsonl",
+          "20261005_194546_445.jsonl",
+          "20261005_194630_298.jsonl",
+          "20261005_194714_880.jsonl"
+        ],
+        "val": [
+          "20261005_194842_270.jsonl"
+        ],
+        "test": [
+          "20261005_194913_793.jsonl"
+        ]
+      }
+    },
+    {
+      "topic": "fire",
+      "sha256": "11ed01dd17936f956b4aab12f1123e26a2ca530db48e860f8b72cffb9642cf1f",
+      "splits": {
+        "train": [
+          "20261005_194055_512.jsonl",
+          "20261005_194150_758.jsonl",
+          "20261005_194222_993.jsonl"
+        ],
+        "val": [
+          "20261005_194246_828.jsonl"
+        ],
+        "test": [
+          "20261005_194333_580.jsonl"
+        ]
+      }
+    }
+  ],
+  "teacher_training_files": [
+    "C:\\Users\\a0105\\AppData\\LocalLow\\DefaultCompany\\project_pm\\SafetyDemonstrations\\AutomaticTeacher\\20261005_204635\\helmet_0.jsonl",
+    "C:\\Users\\a0105\\AppData\\LocalLow\\DefaultCompany\\project_pm\\SafetyDemonstrations\\AutomaticTeacher\\20261005_204635\\helmet_1.jsonl",
+    "C:\\Users\\a0105\\AppData\\LocalLow\\DefaultCompany\\project_pm\\SafetyDemonstrations\\AutomaticTeacher\\20261005_204635\\helmet_2.jsonl",
+    "C:\\Users\\a0105\\AppData\\LocalLow\\DefaultCompany\\project_pm\\SafetyDemonstrations\\AutomaticTeacher\\20261005_204635\\helmet_3.jsonl",
+    "C:\\Users\\a0105\\AppData\\LocalLow\\DefaultCompany\\project_pm\\SafetyDemonstrations\\AutomaticTeacher\\20261005_204635\\forklift_0.jsonl",
+    "C:\\Users\\a0105\\AppData\\LocalLow\\DefaultCompany\\project_pm\\SafetyDemonstrations\\AutomaticTeacher\\20261005_204635\\forklift_1.jsonl",
+    "C:\\Users\\a0105\\AppData\\LocalLow\\DefaultCompany\\project_pm\\SafetyDemonstrations\\AutomaticTeacher\\20261005_204635\\forklift_2.jsonl",
+    "C:\\Users\\a0105\\AppData\\LocalLow\\DefaultCompany\\project_pm\\SafetyDemonstrations\\AutomaticTeacher\\20261005_204635\\forklift_3.jsonl",
+    "C:\\Users\\a0105\\AppData\\LocalLow\\DefaultCompany\\project_pm\\SafetyDemonstrations\\AutomaticTeacher\\20261005_204635\\fire_0.jsonl",
+    "C:\\Users\\a0105\\AppData\\LocalLow\\DefaultCompany\\project_pm\\SafetyDemonstrations\\AutomaticTeacher\\20261005_204635\\fire_1.jsonl",
+    "C:\\Users\\a0105\\AppData\\LocalLow\\DefaultCompany\\project_pm\\SafetyDemonstrations\\AutomaticTeacher\\20261005_204635\\fire_2.jsonl",
+    "C:\\Users\\a0105\\AppData\\LocalLow\\DefaultCompany\\project_pm\\SafetyDemonstrations\\AutomaticTeacher\\20261005_204635\\fire_3.jsonl"
+  ],
+  "models": {
+    "helmet": {
+      "validation": {
+        "tp": 9,
+        "fp": 14,
+        "fn": 2,
+        "tn": 131,
+        "precision": 0.391304347826087,
+        "recall": 0.8181818181818182,
+        "f1": 0.5294117647058824
+      },
+      "test": {
+        "tp": 12,
+        "fp": 4,
+        "fn": 4,
+        "tn": 126,
+        "precision": 0.75,
+        "recall": 0.75,
+        "f1": 0.75
+      },
+      "threshold_selected_on_validation": 0.75,
+      "limited_warning_events": 5,
+      "train_samples": 1745,
+      "validation_samples": 156,
+      "test_samples": 146,
+      "epochs": 98
+    },
+    "stop": {
+      "validation": {
+        "tp": 40,
+        "fp": 4,
+        "fn": 2,
+        "tn": 96,
+        "precision": 0.9090909090909091,
+        "recall": 0.9523809523809523,
+        "f1": 0.9302325581395349
+      },
+      "test": {
+        "tp": 9,
+        "fp": 5,
+        "fn": 13,
+        "tn": 163,
+        "precision": 0.6428571428571429,
+        "recall": 0.4090909090909091,
+        "f1": 0.5
+      },
+      "threshold_selected_on_validation": 0.55,
+      "train_samples": 5215,
+      "validation_samples": 142,
+      "test_samples": 190,
+      "epochs": 136
+    },
+    "equip": {
+      "validation": {
+        "tp": 95,
+        "fp": 131,
+        "fn": 0,
+        "tn": 0,
+        "precision": 0.42035398230088494,
+        "recall": 1.0,
+        "f1": 0.5919003115264797
+      },
+      "test": {
+        "tp": 45,
+        "fp": 25,
+        "fn": 0,
+        "tn": 0,
+        "precision": 0.6428571428571429,
+        "recall": 1.0,
+        "f1": 0.782608695652174
+      },
+      "threshold_selected_on_validation": 0.35,
+      "train_samples": 2325,
+      "validation_samples": 226,
+      "test_samples": 70,
+      "epochs": 55
+    },
+    "spray": {
+      "validation": {
+        "tp": 15,
+        "fp": 3,
+        "fn": 25,
+        "tn": 183,
+        "precision": 0.8333333333333334,
+        "recall": 0.375,
+        "f1": 0.5172413793103449
+      },
+      "test": {
+        "tp": 4,
+        "fp": 4,
+        "fn": 15,
+        "tn": 47,
+        "precision": 0.5,
+        "recall": 0.21052631578947367,
+        "f1": 0.2962962962962963
+      },
+      "threshold_selected_on_validation": 0.65,
+      "train_samples": 2325,
+      "validation_samples": 226,
+      "test_samples": 70,
+      "epochs": 68
+    },
+    "aim": {
+      "test_local_position_mae_m": 0.0636516734957695,
+      "test_direction_residual_mae": 0.05760679394006729,
+      "train_samples": 98,
+      "validation_samples": 36,
+      "test_samples": 19,
+      "epochs": 82
+    }
+  }
+}

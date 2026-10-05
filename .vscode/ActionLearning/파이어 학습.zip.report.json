@@ -1,0 +1,215 @@
+{
+  "archive": "파이어 학습.zip",
+  "files": [
+    {
+      "file": "20261005_194333_580.jsonl",
+      "samples": 79,
+      "duration": 10.277673721313477
+    },
+    {
+      "file": "20261005_194055_512.jsonl",
+      "samples": 190,
+      "duration": 24.26688575744629
+    },
+    {
+      "file": "20261005_194150_758.jsonl",
+      "samples": 145,
+      "duration": 18.3640079498291
+    },
+    {
+      "file": "20261005_194222_993.jsonl",
+      "samples": 85,
+      "duration": 11.182162284851074
+    },
+    {
+      "file": "20261005_194246_828.jsonl",
+      "samples": 235,
+      "duration": 29.278648376464844
+    }
+  ],
+  "errors": 0,
+  "schemas": {
+    "2": 734
+  },
+  "events": {
+    "human_extinguisher_equip": 5,
+    "human_spray_start": 7,
+    "human_spray_stop": 7
+  },
+  "states": {
+    "spray": 137,
+    "collision_stop": 0,
+    "helmet_warning": 0,
+    "collision_risk": 57,
+    "extinguisher_equipped": 312
+  },
+  "vision": {
+    "person": 594,
+    "forklift": 465,
+    "fire": 473,
+    "nohelmet": 457
+  },
+  "extinguished_max": 2,
+  "first_sample": {
+    "schema_version": 2,
+    "collision_risk_source": "yolo_image_boxes",
+    "observation_names": [
+      "person_detected",
+      "fire_detected",
+      "nohelmet_detected",
+      "image_collision_risk",
+      "spraying",
+      "normalized_image_foot_gap",
+      "extinguished_count"
+    ],
+    "time": 0.0,
+    "observations": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "head_position": {
+      "x": 30.9999942779541,
+      "y": 1.3914399147033691,
+      "z": 51.99999237060547
+    },
+    "right_position": {
+      "x": 30.9999942779541,
+      "y": 1.3914399147033691,
+      "z": 51.99999237060547
+    },
+    "head_rotation": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": -4.371138828673793e-08
+    },
+    "right_rotation": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": -4.371138828673793e-08
+    },
+    "spray": false,
+    "collision_stop": false,
+    "helmet_warning": false,
+    "extinguisher_equipped": false,
+    "collision_risk": false,
+    "control_mode": "human",
+    "right_controller_active": false,
+    "extinguished": 0,
+    "perception": {
+      "frame_id": 0,
+      "width": 0,
+      "height": 0,
+      "processing_ms": 0.0,
+      "inference_ms": 0.0,
+      "coordinate_origin": "",
+      "detections": [],
+      "raw_detections": [],
+      "classifications": [],
+      "model_results": []
+    }
+  },
+  "event_times": [
+    {
+      "kind": "human_action",
+      "time": 4.347472667694092,
+      "action": "human_extinguisher_equip"
+    },
+    {
+      "kind": "human_action",
+      "time": 5.572635173797607,
+      "action": "human_spray_start"
+    },
+    {
+      "kind": "human_action",
+      "time": 7.939428806304932,
+      "action": "human_spray_stop"
+    },
+    {
+      "kind": "human_action",
+      "time": 13.505895614624023,
+      "action": "human_extinguisher_equip"
+    },
+    {
+      "kind": "human_action",
+      "time": 14.731060028076172,
+      "action": "human_spray_start"
+    },
+    {
+      "kind": "human_action",
+      "time": 17.139753341674805,
+      "action": "human_spray_stop"
+    },
+    {
+      "kind": "human_action",
+      "time": 20.02153968811035,
+      "action": "human_spray_start"
+    },
+    {
+      "kind": "human_action",
+      "time": 22.402254104614258,
+      "action": "human_spray_stop"
+    },
+    {
+      "kind": "human_action",
+      "time": 12.141639709472656,
+      "action": "human_extinguisher_equip"
+    },
+    {
+      "kind": "human_action",
+      "time": 14.480588912963867,
+      "action": "human_spray_start"
+    },
+    {
+      "kind": "human_action",
+      "time": 16.819416046142578,
+      "action": "human_spray_stop"
+    },
+    {
+      "kind": "human_action",
+      "time": 6.630416393280029,
+      "action": "human_extinguisher_equip"
+    },
+    {
+      "kind": "human_action",
+      "time": 8.203556060791016,
+      "action": "human_spray_start"
+    },
+    {
+      "kind": "human_action",
+      "time": 10.584270477294922,
+      "action": "human_spray_stop"
+    },
+    {
+      "kind": "human_action",
+      "time": 17.571056365966797,
+      "action": "human_extinguisher_equip"
+    },
+    {
+      "kind": "human_action",
+      "time": 20.285804748535156,
+      "action": "human_spray_start"
+    },
+    {
+      "kind": "human_action",
+      "time": 22.73611831665039,
+      "action": "human_spray_stop"
+    },
+    {
+      "kind": "human_action",
+      "time": 24.573862075805664,
+      "action": "human_spray_start"
+    },
+    {
+      "kind": "human_action",
+      "time": 26.912811279296875,
+      "action": "human_spray_stop"
+    }
+  ]
+}

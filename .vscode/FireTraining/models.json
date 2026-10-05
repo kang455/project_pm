@@ -1,0 +1,60 @@
+{
+  "models": [
+    {
+      "model_id": "forklift",
+      "weights": "forklift.pt",
+      "enabled": true,
+      "confidence": 0.25,
+      "inference_size": 960
+    },
+    {
+      "model_id": "helmet",
+      "weights": "helmet.pt",
+      "enabled": true,
+      "confidence": 0.25
+    },
+    {
+      "model_id": "fire",
+      "weights": "fire_warehouse.pt",
+      "enabled": true,
+      "confidence": 0.25,
+      "class_min_confidence": {
+        "0": 0.25
+      },
+      "expected_class_names": {
+        "0": "fire",
+        "1": "smoke"
+      },
+      "verify_flame_motion": false,
+      "multi_scale_fire": false,
+      "inference_size": 640,
+      "accepted_class_names": [
+        "fire"
+      ]
+    },
+    {
+      "model_id": "person",
+      "weights": "person.pt",
+      "enabled": true,
+      "confidence": 0.25,
+      "diagnostic_only": true
+    },
+    {
+      "model_id": "fire2",
+      "weights": "fire (2).pt",
+      "enabled": true,
+      "confidence": 0.25,
+      "diagnostic_only": true
+    },
+    {
+      "model_id": "nohelmet",
+      "weights": "nohelmet.pt",
+      "enabled": true,
+      "confidence": 0.35,
+      "expected_class_names": {
+        "0": "nohelmet"
+      },
+      "person_crops": true
+    }
+  ]
+}

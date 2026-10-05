@@ -1,0 +1,28 @@
+﻿{
+    "original":  {
+                     "threshold":  0.25,
+                     "positive_images":  45,
+                     "detected_positive_images":  3,
+                     "negative_images":  89,
+                     "false_positive_images":  40,
+                     "mean_ms":  271.62055149213967
+                 },
+    "trained":  {
+                    "threshold":  0.25,
+                    "positive_images":  45,
+                    "detected_positive_images":  42,
+                    "negative_images":  89,
+                    "false_positive_images":  0,
+                    "mean_ms":  50.97260074637858
+                },
+    "threshold":  0.25,
+    "candidate_sha256":  "2d15f620d68f25cf6afa8d1889565ad0b63b3f33e34515c6ef2c75466aa84127",
+    "classes":  {
+                    "0":  "fire",
+                    "1":  "smoke"
+                },
+    "scope":  "Unity warehouse VFX only; smoke not trained/validated",
+    "collection":  "visible on/off image difference, UI excluded; grouped split; labels are synthetic estimates",
+    "trained_checkpoint_epochs":  11,
+    "model_architecture":  "YOLO26n"
+}

@@ -1,0 +1,736 @@
+{
+  "options": [
+    {
+      "threshold": 0.25,
+      "positive_images": 20,
+      "detected_positive_images": 14,
+      "negative_images": 36,
+      "false_positive_images": 0,
+      "mean_ms": 54.27916785551393
+    },
+    {
+      "threshold": 0.35,
+      "positive_images": 20,
+      "detected_positive_images": 14,
+      "negative_images": 36,
+      "false_positive_images": 0,
+      "mean_ms": 54.27916785551393
+    },
+    {
+      "threshold": 0.45,
+      "positive_images": 20,
+      "detected_positive_images": 14,
+      "negative_images": 36,
+      "false_positive_images": 0,
+      "mean_ms": 54.27916785551393
+    },
+    {
+      "threshold": 0.55,
+      "positive_images": 20,
+      "detected_positive_images": 13,
+      "negative_images": 36,
+      "false_positive_images": 0,
+      "mean_ms": 54.27916785551393
+    },
+    {
+      "threshold": 0.65,
+      "positive_images": 20,
+      "detected_positive_images": 12,
+      "negative_images": 36,
+      "false_positive_images": 0,
+      "mean_ms": 54.27916785551393
+    },
+    {
+      "threshold": 0.75,
+      "positive_images": 20,
+      "detected_positive_images": 11,
+      "negative_images": 36,
+      "false_positive_images": 0,
+      "mean_ms": 54.27916785551393
+    }
+  ],
+  "rows": [
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g050_p0_fire.jpg",
+      "targets": [
+        [
+          301.0,
+          130.99986,
+          342.00032,
+          215.99982
+        ]
+      ],
+      "candidates": [
+        {
+          "score": 0.6124756336212158,
+          "box": [
+            298.93505859375,
+            158.1729736328125,
+            342.0150146484375,
+            215.98223876953125
+          ]
+        }
+      ],
+      "ms": 85.59009998862166
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g050_p0_negative.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 44.39310000452679
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g050_p1_fire.jpg",
+      "targets": [
+        [
+          296.99968,
+          148.99986,
+          336.0,
+          216.99990000000003
+        ]
+      ],
+      "candidates": [
+        {
+          "score": 0.4545213580131531,
+          "box": [
+            302.99163818359375,
+            160.17019653320312,
+            337.29229736328125,
+            214.56021118164062
+          ]
+        }
+      ],
+      "ms": 47.51309999846853
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g050_p1_negative.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 50.793699992937036
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g050_worker.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 47.89549999986775
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g051_p0_fire.jpg",
+      "targets": [
+        [
+          309.99968,
+          136.99998000000002,
+          335.0,
+          189.00018
+        ]
+      ],
+      "candidates": [
+        {
+          "score": 0.12087299674749374,
+          "box": [
+            318.93292236328125,
+            156.871337890625,
+            341.75994873046875,
+            198.64569091796875
+          ]
+        }
+      ],
+      "ms": 59.23169999732636
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g051_p0_negative.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 48.37929998757318
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g051_p1_fire.jpg",
+      "targets": [
+        [
+          310.99967999999996,
+          147.99996,
+          334.0,
+          195.00012
+        ]
+      ],
+      "candidates": [],
+      "ms": 43.62859998946078
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g051_p1_negative.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 55.21770000632387
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g051_worker.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 45.45420000795275
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g052_p0_fire.jpg",
+      "targets": [
+        [
+          301.99968,
+          147.00006000000002,
+          335.0,
+          199.00025999999997
+        ]
+      ],
+      "candidates": [
+        {
+          "score": 0.8401429653167725,
+          "box": [
+            302.14605712890625,
+            144.05438232421875,
+            332.791259765625,
+            200.0079345703125
+          ]
+        }
+      ],
+      "ms": 43.96880000422243
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g052_p0_negative.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 51.251099997898564
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g052_p1_fire.jpg",
+      "targets": [
+        [
+          302.99968,
+          138.00006,
+          334.0,
+          198.00018
+        ]
+      ],
+      "candidates": [
+        {
+          "score": 0.8970040678977966,
+          "box": [
+            305.1485900878906,
+            142.46725463867188,
+            334.8392639160156,
+            198.07723999023438
+          ]
+        }
+      ],
+      "ms": 51.59619999176357
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g052_p1_negative.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 51.39729999064002
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g052_worker.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 49.94700000679586
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g053_p0_fire.jpg",
+      "targets": [
+        [
+          294.0,
+          153.9999,
+          342.0,
+          221.99994
+        ]
+      ],
+      "candidates": [
+        {
+          "score": 0.8659427165985107,
+          "box": [
+            294.1479187011719,
+            150.49179077148438,
+            343.3800354003906,
+            222.85107421875
+          ]
+        }
+      ],
+      "ms": 49.99510000925511
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g053_p0_negative.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 56.916799992905
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g053_p1_fire.jpg",
+      "targets": [
+        [
+          297.0,
+          140.00003999999998,
+          342.00032,
+          221.00004
+        ]
+      ],
+      "candidates": [
+        {
+          "score": 0.903195321559906,
+          "box": [
+            296.388427734375,
+            143.4727783203125,
+            343.8902587890625,
+            222.87786865234375
+          ]
+        }
+      ],
+      "ms": 51.40460000257008
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g053_p1_negative.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 54.29329999606125
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g053_worker.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 61.257100009243004
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g054_p0_fire.jpg",
+      "targets": [
+        [
+          306.0,
+          159.00012,
+          333.00032,
+          204.00012
+        ]
+      ],
+      "candidates": [
+        {
+          "score": 0.8005397915840149,
+          "box": [
+            305.84490966796875,
+            157.67874145507812,
+            333.21435546875,
+            204.21530151367188
+          ]
+        }
+      ],
+      "ms": 60.53129999781959
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g054_p0_negative.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 53.207999997539446
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g054_p1_fire.jpg",
+      "targets": [
+        [
+          306.0,
+          154.9998,
+          333.00032,
+          201.99996000000002
+        ]
+      ],
+      "candidates": [
+        {
+          "score": 0.8418654799461365,
+          "box": [
+            307.0398254394531,
+            156.08924865722656,
+            332.5523986816406,
+            204.01966857910156
+          ]
+        }
+      ],
+      "ms": 48.594399995636195
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g054_p1_negative.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 48.38889998791274
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g054_worker.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 55.83690000639763
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g055_p0_negative.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 48.61399999936111
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g055_p1_negative.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 48.31819998798892
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g055_worker.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 49.85939999460243
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g056_p0_fire.jpg",
+      "targets": [
+        [
+          294.99968,
+          150.00012,
+          342.0,
+          241.00019999999998
+        ]
+      ],
+      "candidates": [
+        {
+          "score": 0.18417713046073914,
+          "box": [
+            289.5867004394531,
+            170.06707763671875,
+            320.3850402832031,
+            238.28775024414062
+          ]
+        },
+        {
+          "score": 0.055330563336610794,
+          "box": [
+            297.00628662109375,
+            168.33172607421875,
+            318.18524169921875,
+            222.229248046875
+          ]
+        },
+        {
+          "score": 0.05452147498726845,
+          "box": [
+            298.4033203125,
+            167.29708862304688,
+            317.77581787109375,
+            206.36831665039062
+          ]
+        }
+      ],
+      "ms": 50.964200010639615
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g056_p0_negative.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 49.14909999934025
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g056_p1_fire.jpg",
+      "targets": [
+        [
+          296.0,
+          140.00022,
+          328.0,
+          233.00009999999997
+        ]
+      ],
+      "candidates": [
+        {
+          "score": 0.2274593710899353,
+          "box": [
+            289.0628662109375,
+            157.89219665527344,
+            320.630859375,
+            212.1522979736328
+          ]
+        },
+        {
+          "score": 0.07690564543008804,
+          "box": [
+            299.79779052734375,
+            161.90335083007812,
+            319.37457275390625,
+            205.45187377929688
+          ]
+        }
+      ],
+      "ms": 51.66079998889472
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g056_p1_negative.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 48.03869999886956
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g056_worker.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 52.240799996070564
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g057_p0_fire.jpg",
+      "targets": [
+        [
+          300.0,
+          154.9998,
+          332.0,
+          209.99988
+        ]
+      ],
+      "candidates": [],
+      "ms": 42.40629999549128
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g057_p0_negative.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 57.110699999611825
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g057_p1_fire.jpg",
+      "targets": [
+        [
+          307.0,
+          154.9998,
+          332.00032,
+          209.99988
+        ]
+      ],
+      "candidates": [],
+      "ms": 55.98429999372456
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g057_p1_negative.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 48.56670000299346
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g057_worker.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 40.95049999887124
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g058_p0_fire.jpg",
+      "targets": [
+        [
+          307.0,
+          152.99982,
+          333.0,
+          203.99993999999998
+        ]
+      ],
+      "candidates": [
+        {
+          "score": 0.923160195350647,
+          "box": [
+            305.256103515625,
+            153.83663940429688,
+            334.125732421875,
+            204.85287475585938
+          ]
+        }
+      ],
+      "ms": 48.05260000284761
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g058_p0_negative.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 50.44439999619499
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g058_p1_fire.jpg",
+      "targets": [
+        [
+          308.00000000000006,
+          158.00003999999998,
+          336.0,
+          204.00011999999998
+        ]
+      ],
+      "candidates": [
+        {
+          "score": 0.9011802077293396,
+          "box": [
+            307.21917724609375,
+            156.22296142578125,
+            334.49017333984375,
+            203.80072021484375
+          ]
+        }
+      ],
+      "ms": 62.743599992245436
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g058_p1_negative.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 70.1818999950774
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g058_worker.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 72.52649999281857
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g059_p0_fire.jpg",
+      "targets": [
+        [
+          280.00032,
+          100.9998,
+          358.00032,
+          237.99996
+        ]
+      ],
+      "candidates": [
+        {
+          "score": 0.8926482796669006,
+          "box": [
+            277.865234375,
+            119.891357421875,
+            349.02862548828125,
+            241.53582763671875
+          ]
+        }
+      ],
+      "ms": 82.73359999293461
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g059_p0_negative.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 71.04520000575576
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g059_p1_fire.jpg",
+      "targets": [
+        [
+          284.99968,
+          102.00023999999999,
+          356.0,
+          236.00016000000002
+        ]
+      ],
+      "candidates": [
+        {
+          "score": 0.9157879948616028,
+          "box": [
+            289.126953125,
+            136.62860107421875,
+            352.45880126953125,
+            237.16714477539062
+          ]
+        }
+      ],
+      "ms": 65.67589999758638
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g059_p1_negative.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 60.64870000409428
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g059_worker.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 54.67549999593757
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g060_p0_negative.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 66.05000000854488
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g060_p1_negative.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 60.48719999671448
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g060_worker.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 56.99559999629855
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g061_p0_fire.jpg",
+      "targets": [
+        [
+          302.0,
+          153.00000000000003,
+          341.00032,
+          217.00008000000003
+        ]
+      ],
+      "candidates": [
+        {
+          "score": 0.8915379643440247,
+          "box": [
+            302.31536865234375,
+            147.95407104492188,
+            342.75848388671875,
+            217.74420166015625
+          ]
+        },
+        {
+          "score": 0.07288889586925507,
+          "box": [
+            304.77398681640625,
+            143.6650390625,
+            338.17034912109375,
+            193.21109008789062
+          ]
+        }
+      ],
+      "ms": 46.015100000659004
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g061_p0_negative.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 49.23419999249745
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g061_p1_fire.jpg",
+      "targets": [
+        [
+          300.0,
+          150.00012,
+          336.0,
+          214.0002
+        ]
+      ],
+      "candidates": [
+        {
+          "score": 0.672417938709259,
+          "box": [
+            299.63336181640625,
+            155.39805603027344,
+            336.73858642578125,
+            213.67567443847656
+          ]
+        }
+      ],
+      "ms": 55.04190000647213
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g061_p1_negative.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 54.628199999569915
+    },
+    {
+      "image": "D:\\\uc0c8 \ud3f4\ub354\\unity project\\project_pm\\.vscode\\FireTraining\\dataset_v3\\images\\val\\g061_worker.jpg",
+      "targets": [],
+      "candidates": [],
+      "ms": 51.905800006352365
+    }
+  ]
+}
