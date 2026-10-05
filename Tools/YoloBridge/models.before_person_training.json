@@ -1,0 +1,87 @@
+{
+  "models": [
+    {
+      "model_id": "forklift",
+      "weights": "forklift_warehouse.pt",
+      "enabled": true,
+      "confidence": 0.25,
+      "inference_size": 640,
+      "expected_class_names": {
+        "0": "container",
+        "1": "crane",
+        "2": "forklift",
+        "3": "person",
+        "4": "ship",
+        "5": "stacker",
+        "6": "truck"
+      },
+      "accepted_class_names": [
+        "forklift",
+        "person"
+      ],
+      "class_min_confidence": {
+        "2": 0.25,
+        "3": 0.25
+      }
+    },
+    {
+      "model_id": "helmet",
+      "weights": "helmet_warehouse.pt",
+      "enabled": true,
+      "confidence": 0.25,
+      "inference_size": 640,
+      "expected_class_names": {
+        "0": "object",
+        "1": "safety_helmet_detection_0321 - v3 2024-03-27 8-32pm"
+      },
+      "accepted_class_names": [
+        "safety_helmet_detection_0321 - v3 2024-03-27 8-32pm"
+      ],
+      "require_person_head": true
+    },
+    {
+      "model_id": "fire",
+      "weights": "fire_warehouse.pt",
+      "enabled": true,
+      "confidence": 0.25,
+      "class_min_confidence": {
+        "0": 0.25
+      },
+      "expected_class_names": {
+        "0": "fire",
+        "1": "smoke"
+      },
+      "verify_flame_motion": false,
+      "multi_scale_fire": false,
+      "inference_size": 640,
+      "accepted_class_names": [
+        "fire"
+      ]
+    },
+    {
+      "model_id": "person",
+      "weights": "person.pt",
+      "enabled": true,
+      "confidence": 0.25,
+      "diagnostic_only": true
+    },
+    {
+      "model_id": "fire2",
+      "weights": "fire (2).pt",
+      "enabled": true,
+      "confidence": 0.25,
+      "diagnostic_only": true
+    },
+    {
+      "model_id": "nohelmet",
+      "weights": "nohelmet_warehouse.pt",
+      "enabled": true,
+      "confidence": 0.25,
+      "expected_class_names": {
+        "0": "nohelmet"
+      },
+      "person_crops": false,
+      "inference_size": 640
+    }
+  ]
+}
